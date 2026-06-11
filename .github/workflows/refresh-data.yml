@@ -2,10 +2,10 @@ name: Refresh World Cup data
 
 # Fetches football-data.org with the repo's secret key and force-pushes the
 # raw JSON to a single-commit orphan `data` branch. App clients read it from
-# raw.githubusercontent.com — the API key never reaches users, and total API
+# raw.githubusercontent.com -- the API key never reaches users, and total API
 # usage stays at 3 requests per run regardless of how many users the app has.
 #
-# Setup: repo Settings → Secrets and variables → Actions → New repository
+# Setup: repo Settings -> Secrets and variables -> Actions -> New repository
 # secret, name FOOTBALL_DATA_API_KEY.
 
 on:
@@ -26,7 +26,7 @@ jobs:
           # Final is July 19, 2026; stop refreshing a week after.
           if [ "$(date -u +%Y%m%d)" -gt 20260726 ]; then
             echo "active=false" >> "$GITHUB_OUTPUT"
-            echo "Tournament over — skipping (disable this workflow)."
+            echo "Tournament over -- skipping (disable this workflow)."
           else
             echo "active=true" >> "$GITHUB_OUTPUT"
           fi
