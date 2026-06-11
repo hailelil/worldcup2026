@@ -44,17 +44,10 @@ jobs:
           curl -fsS --retry 2 -H "X-Auth-Token: $KEY" "$base/standings" -o out/standings.json
           sleep 7
           curl -fsS --retry 2 -H "X-Auth-Token: $KEY" "$base/teams"     -o out/teams.json
-          # Never publish malformed payloads.
-          python3 -c "
-import json, sys
-ok = (
-  len(json.load(open('out/matches.json'))['matches']) > 0 and
-  len(json.load(open('out/standings.json'))['standings']) > 0 and
-  len(json.load(open('out/teams.json'))['teams']) > 0
-)
-sys.exit(0 if ok else 1)
-print('payloads OK')
-"
+          # Validate payloads before publishing (fails fast on empty/malformed JSON).
+          jq -e '.matches | length > 0' out/matches.json > /dev/null
+          jq -e '.standings | length > 0' out/standings.json > /dev/null
+          jq -e '.teams | length > 0' out/teams.json > /dev/null
 
       - name: Publish to the data branch
         if: steps.window.outputs.active == 'true'
