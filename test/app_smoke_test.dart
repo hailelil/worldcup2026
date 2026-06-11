@@ -43,6 +43,7 @@ void main() {
       ProviderScope(
         overrides: [
           seedDataSourceProvider.overrideWithValue(seed),
+          hasLiveSourceProvider.overrideWithValue(false),
           repositoryProvider.overrideWith(
             (ref) async => WorldCupRepository(
               api: null, // offline path: seed only

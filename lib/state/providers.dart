@@ -7,12 +7,13 @@ import '../data/seed_data_source.dart';
 import '../data/world_cup_repository.dart';
 import '../models/venue.dart';
 
-/// Public JSON mirror refreshed by .github/workflows/refresh-data.yml —
+/// Public JSON mirror refreshed by .github/workflows/data-sync.yml --
 /// the preferred source: no key ships in the app and any number of users
-/// shares one football-data.org quota. Set the default to
-/// 'https://raw.githubusercontent.com/USER/REPO/data' once the GitHub
-/// repo exists, or pass it with --dart-define=WC_DATA_URL=...
-const dataUrl = String.fromEnvironment('WC_DATA_URL');
+/// shares one football-data.org quota.
+const dataUrl = String.fromEnvironment(
+  'WC_DATA_URL',
+  defaultValue: 'https://raw.githubusercontent.com/hailelil/worldcup2026/data',
+);
 
 /// Direct-API fallback for development. Free key:
 /// https://www.football-data.org/client/register

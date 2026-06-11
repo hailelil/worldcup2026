@@ -20,10 +20,10 @@ flutter test --plain-name 'parses a finished group match'  # one test by name
 
 Two live-data modes, both read via `String.fromEnvironment` in `lib/state/providers.dart`:
 
-- **Snapshot mirror (for released builds):** `.github/workflows/refresh-data.yml` runs every ~5 min, fetches football-data.org with the repo secret `FOOTBALL_DATA_API_KEY`, and force-pushes `matches.json`/`standings.json`/`teams.json` to a single-commit orphan `data` branch. The app reads it from `https://raw.githubusercontent.com/<user>/<repo>/data` — no key ships in the app and all users share one API quota. Once the GitHub repo exists, bake this URL in as the `defaultValue` of `dataUrl` in providers.dart.
+- **Snapshot mirror (default):** `.github/workflows/data-sync.yml` runs every ~5 min on `hailelil/worldcup2026`, fetches football-data.org with the repo secret `FOOTBALL_DATA_API_KEY`, and force-pushes `matches.json`/`standings.json`/`teams.json` to a single-commit orphan `data` branch. The URL `https://raw.githubusercontent.com/hailelil/worldcup2026/data` is baked in as the `defaultValue` of `dataUrl` in providers.dart — no key ships in the app, all users share one API quota.
 - **Direct API (dev only):** a personal key from https://www.football-data.org/client/register. Never hardcode it.
 
-Without either, the app still works fully from bundled seed data and shows a banner.
+Without a network connection, the app still works fully from the bundled seed data and local cache.
 
 ## Architecture
 
