@@ -9,7 +9,8 @@ A Flutter app for following the FIFA World Cup 2026 (June 11 – July 19, 2026):
 ## Commands
 
 ```sh
-flutter run --dart-define=FOOTBALL_DATA_API_KEY=<key>   # run with live data
+flutter run --dart-define=WC_DATA_URL=<url>              # run against the GitHub snapshot mirror (preferred)
+flutter run --dart-define=FOOTBALL_DATA_API_KEY=<key>    # run against football-data.org directly (dev)
 flutter run                                              # run offline (bundled schedule only)
 flutter analyze                                          # must stay at zero issues
 flutter test                                             # all unit tests
@@ -17,7 +18,12 @@ flutter test test/repository_test.dart                   # one test file
 flutter test --plain-name 'parses a finished group match'  # one test by name
 ```
 
-The API key is a free registration at https://www.football-data.org/client/register. It is read via `String.fromEnvironment` in `lib/state/providers.dart` — never hardcode it. Without a key the app still works fully from bundled seed data and shows a banner.
+Two live-data modes, both read via `String.fromEnvironment` in `lib/state/providers.dart`:
+
+- **Snapshot mirror (for released builds):** `.github/workflows/refresh-data.yml` runs every ~5 min, fetches football-data.org with the repo secret `FOOTBALL_DATA_API_KEY`, and force-pushes `matches.json`/`standings.json`/`teams.json` to a single-commit orphan `data` branch. The app reads it from `https://raw.githubusercontent.com/<user>/<repo>/data` — no key ships in the app and all users share one API quota. Once the GitHub repo exists, bake this URL in as the `defaultValue` of `dataUrl` in providers.dart.
+- **Direct API (dev only):** a personal key from https://www.football-data.org/client/register. Never hardcode it.
+
+Without either, the app still works fully from bundled seed data and shows a banner.
 
 ## Architecture
 

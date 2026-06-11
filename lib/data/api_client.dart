@@ -19,18 +19,38 @@ class ApiException implements Exception {
 
 /// Thin client for the football-data.org v4 World Cup endpoints.
 /// Methods are overridable so tests can substitute a fake.
+///
+/// Two modes:
+/// - [ApiClient.footballData]: football-data.org v4 directly, authenticated
+///   with a personal key (10 requests/minute free tier).
+/// - [ApiClient.snapshot]: a public, unauthenticated JSON mirror refreshed by
+///   the GitHub Actions workflow (.github/workflows/refresh-data.yml). Same
+///   response shapes — no key in the app, no per-user API quota.
 class ApiClient {
-  ApiClient(this.apiKey, {http.Client? client})
-      : _client = client ?? http.Client();
+  ApiClient.footballData(String apiKey, {http.Client? client})
+      : _base = 'https://api.football-data.org/v4/competitions/WC',
+        _suffix = '',
+        _headers = {'X-Auth-Token': apiKey},
+        _client = client ?? http.Client();
 
-  static const _base = 'https://api.football-data.org/v4/competitions/WC';
+  /// [baseUrl] is the directory holding matches.json, standings.json and
+  /// teams.json, e.g. https://raw.githubusercontent.com/USER/REPO/data
+  ApiClient.snapshot(String baseUrl, {http.Client? client})
+      : _base = baseUrl.endsWith('/')
+            ? baseUrl.substring(0, baseUrl.length - 1)
+            : baseUrl,
+        _suffix = '.json',
+        _headers = const {},
+        _client = client ?? http.Client();
 
-  final String apiKey;
+  final String _base;
+  final String _suffix;
+  final Map<String, String> _headers;
   final http.Client _client;
 
-  Future<Map<String, dynamic>> _getJson(String path) async {
+  Future<Map<String, dynamic>> _getJson(String name) async {
     final response = await _client
-        .get(Uri.parse('$_base$path'), headers: {'X-Auth-Token': apiKey})
+        .get(Uri.parse('$_base/$name$_suffix'), headers: _headers)
         .timeout(const Duration(seconds: 15));
     if (response.statusCode != 200) {
       throw ApiException(response.statusCode, response.body);
@@ -40,7 +60,7 @@ class ApiClient {
   }
 
   Future<List<WcMatch>> fetchMatches() async {
-    final body = await _getJson('/matches');
+    final body = await _getJson('matches');
     return (body['matches'] as List<dynamic>)
         .cast<Map<String, dynamic>>()
         .map(WcMatch.fromJson)
@@ -48,12 +68,12 @@ class ApiClient {
   }
 
   Future<List<GroupStanding>> fetchStandings() async {
-    final body = await _getJson('/standings');
+    final body = await _getJson('standings');
     return GroupStanding.listFromJson(body['standings'] as List<dynamic>);
   }
 
   Future<List<TeamRef>> fetchTeams() async {
-    final body = await _getJson('/teams');
+    final body = await _getJson('teams');
     return (body['teams'] as List<dynamic>)
         .cast<Map<String, dynamic>>()
         .map(TeamRef.fromJson)

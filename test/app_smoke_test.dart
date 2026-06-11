@@ -61,8 +61,7 @@ void main() {
 
     // Today tab: opening match and the no-key banner.
     expect(find.text('World Cup 2026'), findsOneWidget);
-    expect(find.textContaining('Add a football-data.org API key'),
-        findsOneWidget);
+    expect(find.textContaining('Configure a data source'), findsOneWidget);
     expect(find.text('Mexico'), findsWidgets);
 
     // Matches tab: full schedule with filters.

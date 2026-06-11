@@ -10,7 +10,7 @@ import 'package:football/models/standing.dart';
 import 'package:football/models/team.dart';
 
 class FakeApiClient extends ApiClient {
-  FakeApiClient() : super('fake-key');
+  FakeApiClient() : super.footballData('fake-key');
 
   int fetchCount = 0;
   Exception? error;

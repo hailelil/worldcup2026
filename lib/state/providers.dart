@@ -7,16 +7,30 @@ import '../data/seed_data_source.dart';
 import '../data/world_cup_repository.dart';
 import '../models/venue.dart';
 
-/// Free key: https://www.football-data.org/client/register
+/// Public JSON mirror refreshed by .github/workflows/refresh-data.yml —
+/// the preferred source: no key ships in the app and any number of users
+/// shares one football-data.org quota. Set the default to
+/// 'https://raw.githubusercontent.com/USER/REPO/data' once the GitHub
+/// repo exists, or pass it with --dart-define=WC_DATA_URL=...
+const dataUrl = String.fromEnvironment('WC_DATA_URL');
+
+/// Direct-API fallback for development. Free key:
+/// https://www.football-data.org/client/register
 /// Pass with: flutter run --dart-define=FOOTBALL_DATA_API_KEY=yourkey
 const apiKey = String.fromEnvironment('FOOTBALL_DATA_API_KEY');
+
+ApiClient? _buildApiClient() {
+  if (dataUrl.isNotEmpty) return ApiClient.snapshot(dataUrl);
+  if (apiKey.isNotEmpty) return ApiClient.footballData(apiKey);
+  return null;
+}
 
 final seedDataSourceProvider = Provider((ref) => SeedDataSource());
 
 final repositoryProvider = FutureProvider<WorldCupRepository>((ref) async {
   final dir = await getApplicationDocumentsDirectory();
   return WorldCupRepository(
-    api: apiKey.isEmpty ? null : ApiClient(apiKey),
+    api: _buildApiClient(),
     cache: LocalCache(dir),
     seed: ref.watch(seedDataSourceProvider),
   );
@@ -25,8 +39,10 @@ final repositoryProvider = FutureProvider<WorldCupRepository>((ref) async {
 final venuesProvider = FutureProvider<List<Venue>>(
     (ref) => ref.watch(seedDataSourceProvider).loadVenues());
 
-/// Whether live refresh is possible (an API key was provided at build time).
-final hasApiKeyProvider = Provider((ref) => apiKey.isNotEmpty);
+/// Whether any live data source (snapshot URL or API key) was configured
+/// at build time.
+final hasLiveSourceProvider =
+    Provider((ref) => dataUrl.isNotEmpty || apiKey.isNotEmpty);
 
 class WorldCupDataNotifier extends AsyncNotifier<WorldCupData> {
   @override

@@ -13,14 +13,14 @@ class OfflineBanner extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final data = ref.watch(worldCupDataProvider).value;
-    final hasKey = ref.watch(hasApiKeyProvider);
+    final hasLiveSource = ref.watch(hasLiveSourceProvider);
     if (data == null) return const SizedBox.shrink();
 
     String? message;
     final fetchedAt = data.fetchedAt;
-    if (!hasKey) {
+    if (!hasLiveSource) {
       message = 'Showing the official schedule. '
-          'Add a football-data.org API key for live scores.';
+          'Configure a data source for live scores.';
     } else if (data.source != DataSource.live &&
         fetchedAt != null &&
         DateTime.now().toUtc().difference(fetchedAt.toUtc()) >
