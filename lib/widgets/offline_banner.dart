@@ -17,12 +17,18 @@ class OfflineBanner extends ConsumerWidget {
     if (data == null) return const SizedBox.shrink();
 
     String? message;
+    final fetchedAt = data.fetchedAt;
     if (!hasKey) {
       message = 'Showing the official schedule. '
           'Add a football-data.org API key for live scores.';
-    } else if (data.source != DataSource.live && data.fetchedAt != null) {
+    } else if (data.source != DataSource.live &&
+        fetchedAt != null &&
+        DateTime.now().toUtc().difference(fetchedAt.toUtc()) >
+            const Duration(hours: 1)) {
+      // Recent cache is normal operation (TTL not yet expired) — only flag
+      // genuinely stale data.
       message =
-          'Offline — last updated ${DateFormat.MMMd().add_jm().format(data.fetchedAt!.toLocal())}';
+          'Offline — last updated ${DateFormat.MMMd().add_jm().format(fetchedAt.toLocal())}';
     }
     if (message == null) return const SizedBox.shrink();
 

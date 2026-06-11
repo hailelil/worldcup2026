@@ -24,6 +24,14 @@ void main() {
     expect(leader.goalDifference, 1);
   });
 
+  test('normalizes the live API\'s "Group A" format to GROUP_A', () {
+    final standings = GroupStanding.listFromJson([
+      {'stage': 'GROUP_STAGE', 'type': 'TOTAL', 'group': 'Group C', 'table': []},
+    ]);
+    expect(standings.single.group, 'GROUP_C');
+    expect(standings.single.label, 'Group C');
+  });
+
   test('ignores non-TOTAL standing types', () {
     final standings = GroupStanding.listFromJson([
       {'stage': 'GROUP_STAGE', 'type': 'HOME', 'group': 'GROUP_A', 'table': []},

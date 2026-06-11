@@ -57,8 +57,24 @@ class WorldCupRepository {
   Future<WorldCupData> loadLocal() async {
     final cached = await cache.read();
     if (cached != null) {
+      var matches = cached.matches;
+      // Caches written before venue backfill existed hold venue-less API
+      // data; heal them from the bundled seed (same match ids).
+      if (matches.any((m) => m.venue == null)) {
+        final seeded = await seed.load();
+        final venueById = {
+          for (final m in seeded.matches)
+            if (m.venue != null) m.id: m.venue!,
+        };
+        matches = [
+          for (final m in matches)
+            m.venue == null && venueById.containsKey(m.id)
+                ? m.withVenue(venueById[m.id]!)
+                : m,
+        ];
+      }
       return WorldCupData(
-        matches: cached.matches,
+        matches: matches,
         standings: cached.standings,
         teams: cached.teams,
         source: DataSource.cache,
@@ -108,7 +124,19 @@ class WorldCupRepository {
     _lastAttempt = now;
 
     try {
-      final matches = await client.fetchMatches();
+      var matches = await client.fetchMatches();
+      // The live API serves venue: null for WC 2026; keep the stadium names
+      // we already have (the bundled seed shares the API's match ids).
+      final venueById = {
+        for (final m in current.matches)
+          if (m.venue != null) m.id: m.venue!,
+      };
+      matches = [
+        for (final m in matches)
+          m.venue == null && venueById.containsKey(m.id)
+              ? m.withVenue(venueById[m.id]!)
+              : m,
+      ];
       final standings = await client.fetchStandings();
       // Teams change never during the tournament; reuse them once we have any.
       final teams =

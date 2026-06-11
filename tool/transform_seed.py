@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
-"""Transform the fixturedownload.com WC2026 feed (tool/raw_feed.json) into
-assets/seed/wc2026_seed.json shaped like football-data.org v4 responses,
-so the app parses seed and live API data with the same models.
+"""Build assets/seed/wc2026_seed.json (football-data.org v4 shape).
+
+Sources:
+- tool/raw_feed.json (fixturedownload.com): venues and knockout qualification
+  labels ("Group A winners"), which the API does not provide.
+- tool/api_seed.json (optional, written by tool/fetch_seed.sh): official
+  football-data.org data — real team ids, crests, scores and standings.
+
+With both present, the API data is the base and the feed fills in venue names
+and placeholder labels. Feed-only output is used when no API file exists.
 
 Usage: python3 tool/transform_seed.py
 """
@@ -118,6 +125,45 @@ def stage_for(match):
     return "THIRD_PLACE" if match["MatchNumber"] == 103 else "FINAL"
 
 
+# Feed TLA -> football-data.org TLA, where they disagree.
+TLA_ALIASES = {"URU": "URY", "CUW": "CUR"}
+
+
+def merge_with_api(feed_matches, api):
+    """API data as base; venue and knockout placeholder labels from the feed."""
+    by_pairing = {}  # time-independent: kickoff times occasionally differ
+    by_knockout_key = {}
+    for m in feed_matches:
+        if m["group"]:
+            home, away = m["homeTeam"]["tla"], m["awayTeam"]["tla"]
+            key = (m["group"], TLA_ALIASES.get(home, home), TLA_ALIASES.get(away, away))
+            by_pairing[key] = m
+        else:
+            by_knockout_key[(m["utcDate"], m["stage"])] = m
+
+    merged, misses = [], 0
+    for am in api["matches"]:
+        if am.get("group"):
+            key = (am["group"], (am.get("homeTeam") or {}).get("tla"),
+                   (am.get("awayTeam") or {}).get("tla"))
+            fm = by_pairing.get(key)
+        else:
+            fm = by_knockout_key.get((am["utcDate"], am["stage"]))
+        if fm is None:
+            misses += 1
+        else:
+            if not am.get("venue"):
+                am["venue"] = fm["venue"]
+            for side in ("homeTeam", "awayTeam"):
+                team = am.get(side) or {}
+                if team.get("id") is None and team.get("name") is None:
+                    am[side] = fm[side]
+        merged.append(am)
+    if misses:
+        print(f"warning: {misses} API matches had no feed counterpart")
+    return {"matches": merged, "standings": api["standings"], "teams": api["teams"]}
+
+
 def main():
     feed = json.load(open(os.path.join(HERE, "raw_feed.json")))
     feed.sort(key=lambda m: m["MatchNumber"])
@@ -169,6 +215,10 @@ def main():
     teams = [team_ref(name) for name in sorted(TEAMS)]
 
     seed = {"matches": matches, "standings": standings, "teams": teams}
+    api_path = os.path.join(HERE, "api_seed.json")
+    if os.path.exists(api_path):
+        seed = merge_with_api(matches, json.load(open(api_path)))
+        print("merged official API data with feed venues/labels")
     out = os.path.join(ROOT, "assets", "seed", "wc2026_seed.json")
     json.dump(seed, open(out, "w"), ensure_ascii=False, indent=1)
     print(f"wrote {out}: {len(matches)} matches, {len(standings)} groups, {len(teams)} teams")

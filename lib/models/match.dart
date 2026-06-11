@@ -150,6 +150,20 @@ class WcMatch {
     return '$home – $away';
   }
 
+  WcMatch withVenue(String venue) => WcMatch(
+        id: id,
+        utcDate: utcDate,
+        status: status,
+        stage: stage,
+        matchday: matchday,
+        group: group,
+        homeTeam: homeTeam,
+        awayTeam: awayTeam,
+        score: score,
+        venue: venue,
+        lastUpdated: lastUpdated,
+      );
+
   factory WcMatch.fromJson(Map<String, dynamic> json) => WcMatch(
         id: json['id'] as int,
         utcDate: DateTime.parse(json['utcDate'] as String),

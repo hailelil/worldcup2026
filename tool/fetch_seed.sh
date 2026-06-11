@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
-# Regenerate assets/seed/wc2026_seed.json from the live football-data.org API.
-# Requires FOOTBALL_DATA_API_KEY in the environment (free key: https://www.football-data.org/client/register).
+# Regenerate assets/seed/wc2026_seed.json from the live football-data.org API,
+# enriched with venue names and knockout labels from the fixturedownload feed.
+# Requires FOOTBALL_DATA_API_KEY in the environment (free key:
+# https://www.football-data.org/client/register).
 # Run occasionally during the tournament so fresh installs ship with current results.
 set -euo pipefail
 cd "$(dirname "$0")/.."
@@ -17,12 +19,16 @@ teams=$(curl -fsS -H "$H" "$BASE/teams")
 
 python3 - "$matches" "$standings" "$teams" <<'EOF'
 import json, sys
-seed = {
+api = {
     "matches": json.loads(sys.argv[1])["matches"],
     "standings": json.loads(sys.argv[2])["standings"],
     "teams": json.loads(sys.argv[3])["teams"],
 }
-with open("assets/seed/wc2026_seed.json", "w") as f:
-    json.dump(seed, f, ensure_ascii=False, indent=1)
-print(f"wrote assets/seed/wc2026_seed.json: {len(seed['matches'])} matches")
+with open("tool/api_seed.json", "w") as f:
+    json.dump(api, f, ensure_ascii=False, indent=1)
+print(f"wrote tool/api_seed.json: {len(api['matches'])} matches")
 EOF
+
+curl -fsS "https://fixturedownload.com/feed/json/fifa-world-cup-2026" -o tool/raw_feed.json \
+  || echo "feed refresh failed; reusing the committed tool/raw_feed.json"
+python3 tool/transform_seed.py

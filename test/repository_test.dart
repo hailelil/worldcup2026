@@ -96,6 +96,26 @@ void main() {
     expect(data.fetchedAt, now);
   });
 
+  test('null venues from the API are backfilled from current data', () async {
+    final repo = makeRepo();
+    final seedData = await repo.loadLocal();
+    final opener = seedData.matches.first;
+    expect(opener.venue, isNotNull);
+
+    // The live API serves venue: null for the same match id.
+    api.matches = [
+      WcMatch(
+        id: opener.id,
+        utcDate: opener.utcDate,
+        status: MatchStatus.inPlay,
+        stage: opener.stage,
+        group: opener.group,
+      ),
+    ];
+    final fresh = (await repo.refresh(seedData))!;
+    expect(fresh.matches.single.venue, opener.venue);
+  });
+
   test('fresh data is not refetched until the TTL expires', () async {
     final repo = makeRepo();
     final fresh = (await repo.refresh(await repo.loadLocal()))!;

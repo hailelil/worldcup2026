@@ -64,8 +64,7 @@
      "type": "REFEREE",
      "nationality": "Brazil"
     }
-   ],
-   "venue": "Estadio Azteca"
+   ]
   },
   {
    "area": {
@@ -131,8 +130,7 @@
      "type": "REFEREE",
      "nationality": "Egypt"
     }
-   ],
-   "venue": "Estadio Akron"
+   ]
   },
   {
    "area": {
@@ -198,8 +196,7 @@
      "type": "REFEREE",
      "nationality": "Argentina"
     }
-   ],
-   "venue": "BMO Field"
+   ]
   },
   {
    "area": {
@@ -265,8 +262,7 @@
      "type": "REFEREE",
      "nationality": "Netherlands"
     }
-   ],
-   "venue": "SoFi Stadium"
+   ]
   },
   {
    "area": {
@@ -332,8 +328,7 @@
      "type": "REFEREE",
      "nationality": "Honduras"
     }
-   ],
-   "venue": "Levi's Stadium"
+   ]
   },
   {
    "area": {
@@ -399,8 +394,7 @@
      "type": "REFEREE",
      "nationality": "Slovenia"
     }
-   ],
-   "venue": "MetLife Stadium"
+   ]
   },
   {
    "area": {
@@ -466,8 +460,7 @@
      "type": "REFEREE",
      "nationality": null
     }
-   ],
-   "venue": "Gillette Stadium"
+   ]
   },
   {
    "area": {
@@ -533,8 +526,7 @@
      "type": "REFEREE",
      "nationality": "Venezuela"
     }
-   ],
-   "venue": "BC Place"
+   ]
   },
   {
    "area": {
@@ -593,8 +585,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "NRG Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -653,8 +644,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "AT&T Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -713,8 +703,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Lincoln Financial Field"
+   "referees": []
   },
   {
    "area": {
@@ -773,8 +762,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Estadio BBVA"
+   "referees": []
   },
   {
    "area": {
@@ -833,8 +821,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Mercedes-Benz Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -893,8 +880,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Lumen Field"
+   "referees": []
   },
   {
    "area": {
@@ -953,8 +939,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Hard Rock Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -1013,8 +998,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "SoFi Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -1073,8 +1057,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "MetLife Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -1133,8 +1116,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Gillette Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -1193,8 +1175,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Arrowhead Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -1253,8 +1234,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Levi's Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -1313,8 +1293,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "NRG Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -1373,8 +1352,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "AT&T Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -1433,8 +1411,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "BMO Field"
+   "referees": []
   },
   {
    "area": {
@@ -1493,8 +1470,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Estadio Azteca"
+   "referees": []
   },
   {
    "area": {
@@ -1553,8 +1529,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Mercedes-Benz Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -1613,8 +1588,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "SoFi Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -1673,8 +1647,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "BC Place"
+   "referees": []
   },
   {
    "area": {
@@ -1733,8 +1706,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Estadio Akron"
+   "referees": []
   },
   {
    "area": {
@@ -1793,8 +1765,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Lumen Field"
+   "referees": []
   },
   {
    "area": {
@@ -1853,8 +1824,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Gillette Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -1913,8 +1883,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Lincoln Financial Field"
+   "referees": []
   },
   {
    "area": {
@@ -1973,8 +1942,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Levi's Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -2033,8 +2001,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "NRG Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -2093,8 +2060,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "BMO Field"
+   "referees": []
   },
   {
    "area": {
@@ -2153,8 +2119,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Arrowhead Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -2213,8 +2178,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Estadio BBVA"
+   "referees": []
   },
   {
    "area": {
@@ -2273,8 +2237,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Mercedes-Benz Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -2333,8 +2296,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "SoFi Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -2393,8 +2355,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Hard Rock Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -2453,8 +2414,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "BC Place"
+   "referees": []
   },
   {
    "area": {
@@ -2513,8 +2473,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "AT&T Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -2573,8 +2532,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Lincoln Financial Field"
+   "referees": []
   },
   {
    "area": {
@@ -2633,8 +2591,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "MetLife Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -2693,8 +2650,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Levi's Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -2753,8 +2709,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "NRG Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -2813,8 +2768,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Gillette Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -2873,8 +2827,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "BMO Field"
+   "referees": []
   },
   {
    "area": {
@@ -2933,8 +2886,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Estadio Akron"
+   "referees": []
   },
   {
    "area": {
@@ -2993,8 +2945,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "BC Place"
+   "referees": []
   },
   {
    "area": {
@@ -3053,8 +3004,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Lumen Field"
+   "referees": []
   },
   {
    "area": {
@@ -3113,8 +3063,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Mercedes-Benz Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -3173,8 +3122,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Hard Rock Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -3233,8 +3181,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Estadio Azteca"
+   "referees": []
   },
   {
    "area": {
@@ -3293,8 +3240,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Estadio BBVA"
+   "referees": []
   },
   {
    "area": {
@@ -3353,8 +3299,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "MetLife Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -3413,8 +3358,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Lincoln Financial Field"
+   "referees": []
   },
   {
    "area": {
@@ -3473,8 +3417,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Arrowhead Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -3533,8 +3476,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "AT&T Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -3593,8 +3535,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "SoFi Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -3653,8 +3594,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Levi's Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -3713,8 +3653,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Gillette Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -3773,8 +3712,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "BMO Field"
+   "referees": []
   },
   {
    "area": {
@@ -3833,8 +3771,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Estadio Akron"
+   "referees": []
   },
   {
    "area": {
@@ -3893,8 +3830,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "NRG Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -3953,8 +3889,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "BC Place"
+   "referees": []
   },
   {
    "area": {
@@ -4013,8 +3948,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Lumen Field"
+   "referees": []
   },
   {
    "area": {
@@ -4073,8 +4007,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "MetLife Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -4133,8 +4066,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Lincoln Financial Field"
+   "referees": []
   },
   {
    "area": {
@@ -4193,8 +4125,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Hard Rock Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -4253,8 +4184,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Mercedes-Benz Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -4313,8 +4243,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "AT&T Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -4373,8 +4302,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Arrowhead Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -4406,16 +4334,16 @@
    "lastUpdated": "2026-05-11T05:21:09Z",
    "homeTeam": {
     "id": null,
-    "name": "Group A runners-up",
-    "shortName": "Group A runners-up",
-    "tla": "2A",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "awayTeam": {
     "id": null,
-    "name": "Group B runners-up",
-    "shortName": "Group B runners-up",
-    "tla": "2B",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "score": {
@@ -4433,8 +4361,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "SoFi Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -4466,16 +4393,16 @@
    "lastUpdated": "2026-05-11T05:21:09Z",
    "homeTeam": {
     "id": null,
-    "name": "Group C winners",
-    "shortName": "Group C winners",
-    "tla": "1C",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "awayTeam": {
     "id": null,
-    "name": "Group F runners-up",
-    "shortName": "Group F runners-up",
-    "tla": "2F",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "score": {
@@ -4493,8 +4420,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "NRG Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -4526,16 +4452,16 @@
    "lastUpdated": "2026-05-11T05:21:09Z",
    "homeTeam": {
     "id": null,
-    "name": "Group E winners",
-    "shortName": "Group E winners",
-    "tla": "1E",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "awayTeam": {
     "id": null,
-    "name": "3rd A/B/C/D/F",
-    "shortName": "3rd A/B/C/D/F",
-    "tla": "3RD",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "score": {
@@ -4553,8 +4479,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Gillette Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -4586,16 +4511,16 @@
    "lastUpdated": "2026-05-11T05:21:09Z",
    "homeTeam": {
     "id": null,
-    "name": "Group F winners",
-    "shortName": "Group F winners",
-    "tla": "1F",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "awayTeam": {
     "id": null,
-    "name": "Group C runners-up",
-    "shortName": "Group C runners-up",
-    "tla": "2C",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "score": {
@@ -4613,8 +4538,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Estadio BBVA"
+   "referees": []
   },
   {
    "area": {
@@ -4646,16 +4570,16 @@
    "lastUpdated": "2026-05-11T05:21:09Z",
    "homeTeam": {
     "id": null,
-    "name": "Group E runners-up",
-    "shortName": "Group E runners-up",
-    "tla": "2E",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "awayTeam": {
     "id": null,
-    "name": "Group I runners-up",
-    "shortName": "Group I runners-up",
-    "tla": "2I",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "score": {
@@ -4673,8 +4597,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "AT&T Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -4706,16 +4629,16 @@
    "lastUpdated": "2026-05-11T05:21:09Z",
    "homeTeam": {
     "id": null,
-    "name": "Group I winners",
-    "shortName": "Group I winners",
-    "tla": "1I",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "awayTeam": {
     "id": null,
-    "name": "3rd C/D/F/G/H",
-    "shortName": "3rd C/D/F/G/H",
-    "tla": "3RD",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "score": {
@@ -4733,8 +4656,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "MetLife Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -4766,16 +4688,16 @@
    "lastUpdated": "2026-05-11T05:21:09Z",
    "homeTeam": {
     "id": null,
-    "name": "Group A winners",
-    "shortName": "Group A winners",
-    "tla": "1A",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "awayTeam": {
     "id": null,
-    "name": "3rd C/E/F/H/I",
-    "shortName": "3rd C/E/F/H/I",
-    "tla": "3RD",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "score": {
@@ -4793,8 +4715,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Estadio Azteca"
+   "referees": []
   },
   {
    "area": {
@@ -4826,16 +4747,16 @@
    "lastUpdated": "2026-05-11T05:21:09Z",
    "homeTeam": {
     "id": null,
-    "name": "Group L winners",
-    "shortName": "Group L winners",
-    "tla": "1L",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "awayTeam": {
     "id": null,
-    "name": "3rd E/H/I/J/K",
-    "shortName": "3rd E/H/I/J/K",
-    "tla": "3RD",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "score": {
@@ -4853,8 +4774,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Mercedes-Benz Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -4886,16 +4806,16 @@
    "lastUpdated": "2026-05-11T05:21:09Z",
    "homeTeam": {
     "id": null,
-    "name": "Group G winners",
-    "shortName": "Group G winners",
-    "tla": "1G",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "awayTeam": {
     "id": null,
-    "name": "3rd A/E/H/I/J",
-    "shortName": "3rd A/E/H/I/J",
-    "tla": "3RD",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "score": {
@@ -4913,8 +4833,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Lumen Field"
+   "referees": []
   },
   {
    "area": {
@@ -4946,16 +4865,16 @@
    "lastUpdated": "2026-05-11T05:21:09Z",
    "homeTeam": {
     "id": null,
-    "name": "Group D winners",
-    "shortName": "Group D winners",
-    "tla": "1D",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "awayTeam": {
     "id": null,
-    "name": "3rd B/E/F/I/J",
-    "shortName": "3rd B/E/F/I/J",
-    "tla": "3RD",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "score": {
@@ -4973,8 +4892,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Levi's Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -5006,16 +4924,16 @@
    "lastUpdated": "2026-05-11T05:21:09Z",
    "homeTeam": {
     "id": null,
-    "name": "Group H winners",
-    "shortName": "Group H winners",
-    "tla": "1H",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "awayTeam": {
     "id": null,
-    "name": "Group J runners-up",
-    "shortName": "Group J runners-up",
-    "tla": "2J",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "score": {
@@ -5033,8 +4951,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "SoFi Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -5066,16 +4983,16 @@
    "lastUpdated": "2026-05-11T05:21:09Z",
    "homeTeam": {
     "id": null,
-    "name": "Group K runners-up",
-    "shortName": "Group K runners-up",
-    "tla": "2K",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "awayTeam": {
     "id": null,
-    "name": "Group L runners-up",
-    "shortName": "Group L runners-up",
-    "tla": "2L",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "score": {
@@ -5093,8 +5010,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "BMO Field"
+   "referees": []
   },
   {
    "area": {
@@ -5126,16 +5042,16 @@
    "lastUpdated": "2026-05-11T05:21:09Z",
    "homeTeam": {
     "id": null,
-    "name": "Group B winners",
-    "shortName": "Group B winners",
-    "tla": "1B",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "awayTeam": {
     "id": null,
-    "name": "3rd E/F/G/I/J",
-    "shortName": "3rd E/F/G/I/J",
-    "tla": "3RD",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "score": {
@@ -5153,8 +5069,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "BC Place"
+   "referees": []
   },
   {
    "area": {
@@ -5186,16 +5101,16 @@
    "lastUpdated": "2026-05-11T05:21:09Z",
    "homeTeam": {
     "id": null,
-    "name": "Group D runners-up",
-    "shortName": "Group D runners-up",
-    "tla": "2D",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "awayTeam": {
     "id": null,
-    "name": "Group G runners-up",
-    "shortName": "Group G runners-up",
-    "tla": "2G",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "score": {
@@ -5213,8 +5128,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "AT&T Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -5246,16 +5160,16 @@
    "lastUpdated": "2026-05-11T05:21:09Z",
    "homeTeam": {
     "id": null,
-    "name": "Group J winners",
-    "shortName": "Group J winners",
-    "tla": "1J",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "awayTeam": {
     "id": null,
-    "name": "Group H runners-up",
-    "shortName": "Group H runners-up",
-    "tla": "2H",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "score": {
@@ -5273,8 +5187,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Hard Rock Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -5306,16 +5219,16 @@
    "lastUpdated": "2026-05-11T05:21:09Z",
    "homeTeam": {
     "id": null,
-    "name": "Group K winners",
-    "shortName": "Group K winners",
-    "tla": "1K",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "awayTeam": {
     "id": null,
-    "name": "3rd D/E/I/J/L",
-    "shortName": "3rd D/E/I/J/L",
-    "tla": "3RD",
+    "name": null,
+    "shortName": null,
+    "tla": null,
     "crest": null
    },
    "score": {
@@ -5333,8 +5246,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Arrowhead Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -5393,8 +5305,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "NRG Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -5453,8 +5364,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Lincoln Financial Field"
+   "referees": []
   },
   {
    "area": {
@@ -5513,8 +5423,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "MetLife Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -5573,8 +5482,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Estadio Azteca"
+   "referees": []
   },
   {
    "area": {
@@ -5633,8 +5541,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "AT&T Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -5693,8 +5600,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Lumen Field"
+   "referees": []
   },
   {
    "area": {
@@ -5753,8 +5659,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Mercedes-Benz Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -5813,8 +5718,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "BC Place"
+   "referees": []
   },
   {
    "area": {
@@ -5873,8 +5777,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Gillette Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -5933,8 +5836,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "SoFi Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -5993,8 +5895,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Hard Rock Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -6053,8 +5954,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Arrowhead Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -6113,8 +6013,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "AT&T Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -6173,8 +6072,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Mercedes-Benz Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -6233,8 +6131,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "Hard Rock Stadium"
+   "referees": []
   },
   {
    "area": {
@@ -6293,8 +6190,7 @@
    "odds": {
     "msg": "Activate Odds-Package in User-Panel to retrieve odds."
    },
-   "referees": [],
-   "venue": "MetLife Stadium"
+   "referees": []
   }
  ],
  "standings": [

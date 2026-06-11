@@ -60,6 +60,12 @@ class GroupStanding {
 
   String get label => 'Group ${group.substring(group.length - 1)}';
 
+  /// The live API is inconsistent: matches use "GROUP_A" but standings use
+  /// "Group A". Normalize both to "GROUP_A".
+  static String _normalizeGroup(String raw) => raw.startsWith('GROUP_')
+      ? raw
+      : 'GROUP_${raw[raw.length - 1].toUpperCase()}';
+
   /// Parses the `standings` array of the v4 response, keeping only
   /// `type == "TOTAL"` entries (HOME/AWAY splits are not relevant here).
   static List<GroupStanding> listFromJson(List<dynamic> standings) {
@@ -67,7 +73,7 @@ class GroupStanding {
         .cast<Map<String, dynamic>>()
         .where((s) => s['type'] == 'TOTAL' && s['group'] != null)
         .map((s) => GroupStanding(
-              group: s['group'] as String,
+              group: _normalizeGroup(s['group'] as String),
               table: (s['table'] as List<dynamic>? ?? [])
                   .cast<Map<String, dynamic>>()
                   .map(TableEntry.fromJson)

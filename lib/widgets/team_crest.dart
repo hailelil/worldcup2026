@@ -12,11 +12,16 @@ class TeamCrest extends StatelessWidget {
   final TeamRef team;
   final double size;
 
+  /// Widget tests set this to false: the test HTTP stub returns invalid
+  /// bytes, and flutter_svg reports parse failures to FlutterError even
+  /// though the errorBuilder fallback renders.
+  static bool networkImagesEnabled = true;
+
   @override
   Widget build(BuildContext context) {
     final crest = team.crest;
     final Widget image;
-    if (crest == null) {
+    if (crest == null || !networkImagesEnabled) {
       image = _monogram(context);
     } else if (crest.toLowerCase().endsWith('.svg')) {
       image = SvgPicture.network(
@@ -24,6 +29,7 @@ class TeamCrest extends StatelessWidget {
         width: size,
         height: size,
         placeholderBuilder: (_) => _monogram(context),
+        errorBuilder: (_, _, _) => _monogram(context),
       );
     } else {
       image = CachedNetworkImage(

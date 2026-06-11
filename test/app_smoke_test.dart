@@ -8,6 +8,7 @@ import 'package:football/data/seed_data_source.dart';
 import 'package:football/data/world_cup_repository.dart';
 import 'package:football/state/providers.dart';
 import 'package:football/widgets/match_card.dart';
+import 'package:football/widgets/team_crest.dart';
 
 /// In-memory cache so the widget test never touches real file IO
 /// (real async IO does not complete inside the fake-async test zone).
@@ -34,6 +35,8 @@ void main() {
 
   testWidgets('all five tabs and the match detail screen render',
       (tester) async {
+    TeamCrest.networkImagesEnabled = false;
+    addTearDown(() => TeamCrest.networkImagesEnabled = true);
     final seed = SeedDataSource(loadAsset: (key) async => preloaded[key]!);
 
     await tester.pumpWidget(
