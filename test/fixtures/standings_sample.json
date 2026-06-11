@@ -1,0 +1,35 @@
+{
+ "standings": [
+  {
+   "stage": "GROUP_STAGE",
+   "type": "TOTAL",
+   "group": "GROUP_A",
+   "table": [
+    {
+     "position": 1,
+     "team": {"id": 1027, "name": "Mexico", "shortName": "Mexico", "tla": "MEX", "crest": "https://flagcdn.com/w80/mx.png"},
+     "playedGames": 1, "won": 1, "draw": 0, "lost": 0,
+     "points": 3, "goalsFor": 2, "goalsAgainst": 1, "goalDifference": 1
+    },
+    {
+     "position": 2,
+     "team": {"id": 1023, "name": "Korea Republic", "shortName": "South Korea", "tla": "KOR", "crest": "https://flagcdn.com/w80/kr.png"},
+     "playedGames": 0, "won": 0, "draw": 0, "lost": 0,
+     "points": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDifference": 0
+    },
+    {
+     "position": 3,
+     "team": {"id": 1014, "name": "Czechia", "shortName": "Czechia", "tla": "CZE", "crest": "https://flagcdn.com/w80/cz.png"},
+     "playedGames": 0, "won": 0, "draw": 0, "lost": 0,
+     "points": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDifference": 0
+    },
+    {
+     "position": 4,
+     "team": {"id": 1039, "name": "South Africa", "shortName": "South Africa", "tla": "RSA", "crest": "https://flagcdn.com/w80/za.png"},
+     "playedGames": 1, "won": 0, "draw": 0, "lost": 1,
+     "points": 0, "goalsFor": 1, "goalsAgainst": 2, "goalDifference": -1
+    }
+   ]
+  }
+ ]
+}

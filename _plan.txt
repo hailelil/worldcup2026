@@ -1,0 +1,96 @@
+ World Cup 2026 Flutter App — Implementation Plan
+
+ Context
+
+ Build a brand-new Flutter mobile app (greenfield — /Users/mardaa/senai/football is empty) for fans to follow the FIFA World Cup 2026 (June 11 – July 19, 2026;
+ USA/Canada/Mexico; 48 teams, 12 groups, 104 matches — the tournament starts today). Core needs: kickoff times in the user's local timezone, results of finished
+ matches, group standings, knockout bracket, venue info — all in an easy-to-navigate UI. Also create CLAUDE.md (user invoked /init).
+
+ Decisions made with the user: live data from the football-data.org v4 API (free tier, verified to include the World Cup — code WC) with an offline-cached/bundled
+ fallback; verify on iOS Simulator first, keep code cross-platform.
+
+ Prerequisite from user: a free API key from https://www.football-data.org/client/register (takes ~2 min). If the key isn't available during the build, everything
+ still gets built and verified against bundled seed data + test fixtures; live refresh activates as soon as a key is passed via --dart-define.
+
+ Verified API facts
+
+ - Base https://api.football-data.org/v4, auth header X-Auth-Token, free tier 10 req/min.
+ - Endpoints: /competitions/WC/matches, /competitions/WC/standings, /competitions/WC/teams.
+ - Match: utcDate (ISO UTC), status ∈ {SCHEDULED, TIMED, IN_PLAY, PAUSED, FINISHED, SUSPENDED, POSTPONED, CANCELLED, AWARDED}, stage (incl. LAST_32 for the new
+ Round of 32), group (GROUP_A…GROUP_L), score.fullTime/halfTime.{home,away}, nullable teams/venue for TBD knockout slots.
+ - Free-tier scores are slightly delayed → UI shows "Live" + "updated X min ago", not second-by-second promises. Attribution line required: "Football data
+ provided by football-data.org".
+
+ Tech choices
+
+ - Packages (lean, 6): http, flutter_riverpod (plain, no codegen), path_provider, intl, cached_network_image, flutter_svg (crests can be SVG or PNG). No go_router
+ (NavigationBar + Navigator.push suffice), no Hive/sqflite (single JSON cache file < 1 MB).
+ - Timezones: DateTime.parse(utcDate).toLocal() + intl DateFormat — no timezone package needed.
+ - API key: String.fromEnvironment('FOOTBALL_DATA_API_KEY'), supplied via flutter run --dart-define=.... Empty key ⇒ app runs on seed/cache with a discreet "add
+ an API key for live scores" banner.
+
+ Architecture
+
+ UI (Riverpod providers in lib/state/providers.dart)
+   └── WorldCupRepository        ← single source of truth, offline-first
+         ├── ApiClient           (http + X-Auth-Token; null when no key)
+         ├── LocalCache          (one wc_cache.json in app documents dir, atomic writes, fetchedAt per section)
+         └── SeedDataSource      (bundled assets/seed/*.json, read-only)
+
+ - Load order: serve cache → else seed, instantly (no startup spinner); background-refresh if stale and key exists.
+ - Rate-limit-safe refresh: full refresh = max 3 requests. TTLs: matches 90 s while live/near kickoff else 30 min; standings 5 min while live else 30 min; teams
+ 24 h. Triggers: app start, pull-to-refresh, app resume, periodic timer on Today tab only while live. 20 s debounce guard; on 429 back off and serve cache.
+
+ Navigation (Material 3 NavigationBar, IndexedStack)
+
+ 1. Today — today's matches with live scores/status chips, kickoff times in local time, countdown to next kickoff, last-5-results strip.
+ 2. Matches — all 104 matches grouped by local date, filter chips (All/Upcoming/Results/Live + stage), auto-scroll to today.
+ 3. Groups — 12 compact group tables (Pos, crest+TLA, P W D L GD Pts), qualification spots tinted.
+ 4. Bracket — vertical list of round sections (R32 → R16 → QF → SF → 3rd place → Final) of compact match cards, "TBD vs TBD" until resolved. No custom painting.
+ 5. More — 16 host stadiums grouped by country (from hand-authored assets/seed/venues.json), about, attribution, data freshness.
+
+ Pushed route: Match detail (big scoreboard, half-time score, status, local kickoff with timezone abbreviation, stage/group, venue, updated-ago).
+
+ Shared widgets: MatchCard, TeamCrest (SVG/PNG switch + TLA monogram fallback), StatusChip, GroupTableCard, OfflineBanner.
+
+ Models (null-tolerant fromJson)
+
+ Match (id, utcDate, status enum, stage, group?, homeTeam?/awayTeam? TeamRef, score?, venue?, helpers: localKickoff/isLive/isFinished/displayScore) · Team (id,
+ name, shortName, tla, crest) · GroupStanding (group + table entries, parse type == "TOTAL") · Venue (static: name, city, country, capacity).
+
+ File structure
+
+ football/
+ ├── CLAUDE.md
+ ├── assets/seed/{wc2026_seed.json, venues.json}
+ ├── tool/fetch_seed.sh                  # 3 curl commands → regenerates seed
+ ├── lib/
+ │   ├── main.dart, app.dart             # ProviderScope; MaterialApp + HomeShell/NavigationBar
+ │   ├── theme/app_theme.dart            # Material 3, ColorScheme.fromSeed (deep blue), light+dark
+ │   ├── models/{match,team,standing,venue}.dart
+ │   ├── data/{api_client,local_cache,seed_data_source,world_cup_repository}.dart
+ │   ├── state/providers.dart
+ │   ├── screens/{today,matches,match_detail,groups,bracket,more}_screen.dart
+ │   └── widgets/{match_card,team_crest,status_chip,group_table_card,offline_banner}.dart
+ └── test/{fixtures/, match_model_test.dart, standing_model_test.dart, repository_test.dart}
+
+ Implementation order
+
+ 1. flutter create . --project-name football --org com.senai --platforms=ios,android; git init; trim counter app.
+ 2. Seed data: if API key available, curl smoke test + save responses to assets/seed/ and test/fixtures/; otherwise hand-author seed from the published 2026
+ schedule (and tool/fetch_seed.sh regenerates it later with a key). Hand-author venues.json (16 stadiums) either way.
+ 3. pubspec: 6 packages + assets section.
+ 4. Models + unit tests against fixtures (TBD-knockout null-tolerance is the key test).
+ 5. Data layer (ApiClient → SeedDataSource → LocalCache → WorldCupRepository) + repository tests with a fake client (offline, stale, 429 paths).
+ 6. providers.dart + lifecycle-resume observer.
+ 7. Shell + theme; first iOS Simulator run.
+ 8. Screens in value order: Matches → Today → Groups → Match detail → Bracket → More.
+ 9. Polish: pull-to-refresh everywhere, offline/no-key banner, live timer, crest fallbacks.
+ 10. CLAUDE.md: build/run/test commands (incl. --dart-define=FOOTBALL_DATA_API_KEY=...), seed regeneration, architecture summary, rate-limit rules.
+
+ Verification
+
+ 1. flutter analyze → zero issues; flutter test → all pass.
+ 2. flutter run on iOS Simulator: today's (June 11) matches show with local kickoff times; finished matches show scores; 12 groups render; bracket shows TBD
+ rounds; pull-to-refresh works; light + dark themes.
+ 3. Run without dart-define to confirm the no-key/offline path still shows the full schedule from seed.

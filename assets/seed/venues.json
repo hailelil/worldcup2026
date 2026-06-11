@@ -1,0 +1,114 @@
+[
+ {
+  "fifaName": "Toronto Stadium",
+  "name": "BMO Field",
+  "city": "Toronto",
+  "country": "Canada",
+  "capacity": 45736
+ },
+ {
+  "fifaName": "BC Place Vancouver",
+  "name": "BC Place",
+  "city": "Vancouver",
+  "country": "Canada",
+  "capacity": 54500
+ },
+ {
+  "fifaName": "Guadalajara Stadium",
+  "name": "Estadio Akron",
+  "city": "Guadalajara",
+  "country": "Mexico",
+  "capacity": 49850
+ },
+ {
+  "fifaName": "Mexico City Stadium",
+  "name": "Estadio Azteca",
+  "city": "Mexico City",
+  "country": "Mexico",
+  "capacity": 87523
+ },
+ {
+  "fifaName": "Monterrey Stadium",
+  "name": "Estadio BBVA",
+  "city": "Monterrey",
+  "country": "Mexico",
+  "capacity": 53500
+ },
+ {
+  "fifaName": "Atlanta Stadium",
+  "name": "Mercedes-Benz Stadium",
+  "city": "Atlanta",
+  "country": "United States",
+  "capacity": 75000
+ },
+ {
+  "fifaName": "Boston Stadium",
+  "name": "Gillette Stadium",
+  "city": "Boston (Foxborough)",
+  "country": "United States",
+  "capacity": 65878
+ },
+ {
+  "fifaName": "Dallas Stadium",
+  "name": "AT&T Stadium",
+  "city": "Dallas (Arlington)",
+  "country": "United States",
+  "capacity": 92967
+ },
+ {
+  "fifaName": "Houston Stadium",
+  "name": "NRG Stadium",
+  "city": "Houston",
+  "country": "United States",
+  "capacity": 72220
+ },
+ {
+  "fifaName": "Kansas City Stadium",
+  "name": "Arrowhead Stadium",
+  "city": "Kansas City",
+  "country": "United States",
+  "capacity": 76416
+ },
+ {
+  "fifaName": "Los Angeles Stadium",
+  "name": "SoFi Stadium",
+  "city": "Los Angeles (Inglewood)",
+  "country": "United States",
+  "capacity": 70240
+ },
+ {
+  "fifaName": "Miami Stadium",
+  "name": "Hard Rock Stadium",
+  "city": "Miami Gardens",
+  "country": "United States",
+  "capacity": 67518
+ },
+ {
+  "fifaName": "New York/New Jersey Stadium",
+  "name": "MetLife Stadium",
+  "city": "New York/New Jersey",
+  "country": "United States",
+  "capacity": 82500
+ },
+ {
+  "fifaName": "Philadelphia Stadium",
+  "name": "Lincoln Financial Field",
+  "city": "Philadelphia",
+  "country": "United States",
+  "capacity": 69328
+ },
+ {
+  "fifaName": "San Francisco Bay Area Stadium",
+  "name": "Levi's Stadium",
+  "city": "San Francisco Bay Area",
+  "country": "United States",
+  "capacity": 70909
+ },
+ {
+  "fifaName": "Seattle Stadium",
+  "name": "Lumen Field",
+  "city": "Seattle",
+  "country": "United States",
+  "capacity": 69000
+ }
+]

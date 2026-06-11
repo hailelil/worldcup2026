@@ -1,0 +1,43 @@
+{
+ "matches": [
+  {
+   "id": 1,
+   "utcDate": "2026-06-11T19:00:00Z",
+   "status": "FINISHED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_A",
+   "homeTeam": {"id": 1027, "name": "Mexico", "shortName": "Mexico", "tla": "MEX", "crest": "https://flagcdn.com/w80/mx.png"},
+   "awayTeam": {"id": 1039, "name": "South Africa", "shortName": "South Africa", "tla": "RSA", "crest": "https://flagcdn.com/w80/za.png"},
+   "score": {"winner": "HOME_TEAM", "duration": "REGULAR", "fullTime": {"home": 2, "away": 1}, "halfTime": {"home": 1, "away": 0}},
+   "venue": "Estadio Azteca",
+   "lastUpdated": "2026-06-11T21:05:00Z"
+  },
+  {
+   "id": 7,
+   "utcDate": "2026-06-13T22:00:00Z",
+   "status": "IN_PLAY",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_C",
+   "homeTeam": {"id": 1006, "name": "Brazil", "shortName": "Brazil", "tla": "BRA", "crest": "https://flagcdn.com/w80/br.png"},
+   "awayTeam": {"id": 1028, "name": "Morocco", "shortName": "Morocco", "tla": "MAR", "crest": "https://flagcdn.com/w80/ma.png"},
+   "score": {"winner": null, "duration": "REGULAR", "fullTime": {"home": 1, "away": 1}, "halfTime": {"home": 0, "away": 1}},
+   "venue": "MetLife Stadium",
+   "lastUpdated": "2026-06-13T23:10:00Z"
+  },
+  {
+   "id": 90,
+   "utcDate": "2026-07-04T17:00:00Z",
+   "status": "TIMED",
+   "matchday": 5,
+   "stage": "LAST_16",
+   "group": null,
+   "homeTeam": {"id": null, "name": null, "shortName": null, "tla": null, "crest": null},
+   "awayTeam": {"id": null, "name": null, "shortName": null, "tla": null, "crest": null},
+   "score": {"winner": null, "duration": "REGULAR", "fullTime": {"home": null, "away": null}, "halfTime": {"home": null, "away": null}},
+   "venue": null,
+   "lastUpdated": "2026-06-01T00:00:00Z"
+  }
+ ]
+}

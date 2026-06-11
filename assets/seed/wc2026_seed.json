@@ -1,0 +1,5036 @@
+{
+ "matches": [
+  {
+   "id": 1,
+   "utcDate": "2026-06-11T19:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_A",
+   "homeTeam": {
+    "id": 1027,
+    "name": "Mexico",
+    "shortName": "Mexico",
+    "tla": "MEX",
+    "crest": "https://flagcdn.com/w80/mx.png"
+   },
+   "awayTeam": {
+    "id": 1039,
+    "name": "South Africa",
+    "shortName": "South Africa",
+    "tla": "RSA",
+    "crest": "https://flagcdn.com/w80/za.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Estadio Azteca",
+   "lastUpdated": "2026-06-11T19:00:00Z"
+  },
+  {
+   "id": 2,
+   "utcDate": "2026-06-12T02:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_A",
+   "homeTeam": {
+    "id": 1026,
+    "name": "Korea Republic",
+    "shortName": "South Korea",
+    "tla": "KOR",
+    "crest": "https://flagcdn.com/w80/kr.png"
+   },
+   "awayTeam": {
+    "id": 1013,
+    "name": "Czechia",
+    "shortName": "Czechia",
+    "tla": "CZE",
+    "crest": "https://flagcdn.com/w80/cz.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Estadio Akron",
+   "lastUpdated": "2026-06-12T02:00:00Z"
+  },
+  {
+   "id": 3,
+   "utcDate": "2026-06-12T19:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_B",
+   "homeTeam": {
+    "id": 1008,
+    "name": "Canada",
+    "shortName": "Canada",
+    "tla": "CAN",
+    "crest": "https://flagcdn.com/w80/ca.png"
+   },
+   "awayTeam": {
+    "id": 1005,
+    "name": "Bosnia and Herzegovina",
+    "shortName": "Bosnia",
+    "tla": "BIH",
+    "crest": "https://flagcdn.com/w80/ba.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "BMO Field",
+   "lastUpdated": "2026-06-12T19:00:00Z"
+  },
+  {
+   "id": 4,
+   "utcDate": "2026-06-13T01:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_D",
+   "homeTeam": {
+    "id": 1045,
+    "name": "USA",
+    "shortName": "USA",
+    "tla": "USA",
+    "crest": "https://flagcdn.com/w80/us.png"
+   },
+   "awayTeam": {
+    "id": 1033,
+    "name": "Paraguay",
+    "shortName": "Paraguay",
+    "tla": "PAR",
+    "crest": "https://flagcdn.com/w80/py.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "SoFi Stadium",
+   "lastUpdated": "2026-06-13T01:00:00Z"
+  },
+  {
+   "id": 5,
+   "utcDate": "2026-06-14T01:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_C",
+   "homeTeam": {
+    "id": 1021,
+    "name": "Haiti",
+    "shortName": "Haiti",
+    "tla": "HAI",
+    "crest": "https://flagcdn.com/w80/ht.png"
+   },
+   "awayTeam": {
+    "id": 1037,
+    "name": "Scotland",
+    "shortName": "Scotland",
+    "tla": "SCO",
+    "crest": "https://flagcdn.com/w80/gb-sct.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Gillette Stadium",
+   "lastUpdated": "2026-06-14T01:00:00Z"
+  },
+  {
+   "id": 6,
+   "utcDate": "2026-06-14T04:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_D",
+   "homeTeam": {
+    "id": 1002,
+    "name": "Australia",
+    "shortName": "Australia",
+    "tla": "AUS",
+    "crest": "https://flagcdn.com/w80/au.png"
+   },
+   "awayTeam": {
+    "id": 1044,
+    "name": "Türkiye",
+    "shortName": "Türkiye",
+    "tla": "TUR",
+    "crest": "https://flagcdn.com/w80/tr.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "BC Place",
+   "lastUpdated": "2026-06-14T04:00:00Z"
+  },
+  {
+   "id": 7,
+   "utcDate": "2026-06-13T22:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_C",
+   "homeTeam": {
+    "id": 1006,
+    "name": "Brazil",
+    "shortName": "Brazil",
+    "tla": "BRA",
+    "crest": "https://flagcdn.com/w80/br.png"
+   },
+   "awayTeam": {
+    "id": 1028,
+    "name": "Morocco",
+    "shortName": "Morocco",
+    "tla": "MAR",
+    "crest": "https://flagcdn.com/w80/ma.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "MetLife Stadium",
+   "lastUpdated": "2026-06-13T22:00:00Z"
+  },
+  {
+   "id": 8,
+   "utcDate": "2026-06-13T19:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_B",
+   "homeTeam": {
+    "id": 1035,
+    "name": "Qatar",
+    "shortName": "Qatar",
+    "tla": "QAT",
+    "crest": "https://flagcdn.com/w80/qa.png"
+   },
+   "awayTeam": {
+    "id": 1042,
+    "name": "Switzerland",
+    "shortName": "Switzerland",
+    "tla": "SUI",
+    "crest": "https://flagcdn.com/w80/ch.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Levi's Stadium",
+   "lastUpdated": "2026-06-13T19:00:00Z"
+  },
+  {
+   "id": 9,
+   "utcDate": "2026-06-14T23:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_E",
+   "homeTeam": {
+    "id": 1014,
+    "name": "Côte d'Ivoire",
+    "shortName": "Côte d'Ivoire",
+    "tla": "CIV",
+    "crest": "https://flagcdn.com/w80/ci.png"
+   },
+   "awayTeam": {
+    "id": 1015,
+    "name": "Ecuador",
+    "shortName": "Ecuador",
+    "tla": "ECU",
+    "crest": "https://flagcdn.com/w80/ec.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Lincoln Financial Field",
+   "lastUpdated": "2026-06-14T23:00:00Z"
+  },
+  {
+   "id": 10,
+   "utcDate": "2026-06-14T17:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_E",
+   "homeTeam": {
+    "id": 1019,
+    "name": "Germany",
+    "shortName": "Germany",
+    "tla": "GER",
+    "crest": "https://flagcdn.com/w80/de.png"
+   },
+   "awayTeam": {
+    "id": 1012,
+    "name": "Curaçao",
+    "shortName": "Curaçao",
+    "tla": "CUW",
+    "crest": "https://flagcdn.com/w80/cw.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "NRG Stadium",
+   "lastUpdated": "2026-06-14T17:00:00Z"
+  },
+  {
+   "id": 11,
+   "utcDate": "2026-06-14T20:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_F",
+   "homeTeam": {
+    "id": 1029,
+    "name": "Netherlands",
+    "shortName": "Netherlands",
+    "tla": "NED",
+    "crest": "https://flagcdn.com/w80/nl.png"
+   },
+   "awayTeam": {
+    "id": 1024,
+    "name": "Japan",
+    "shortName": "Japan",
+    "tla": "JPN",
+    "crest": "https://flagcdn.com/w80/jp.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "AT&T Stadium",
+   "lastUpdated": "2026-06-14T20:00:00Z"
+  },
+  {
+   "id": 12,
+   "utcDate": "2026-06-15T02:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_F",
+   "homeTeam": {
+    "id": 1041,
+    "name": "Sweden",
+    "shortName": "Sweden",
+    "tla": "SWE",
+    "crest": "https://flagcdn.com/w80/se.png"
+   },
+   "awayTeam": {
+    "id": 1043,
+    "name": "Tunisia",
+    "shortName": "Tunisia",
+    "tla": "TUN",
+    "crest": "https://flagcdn.com/w80/tn.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Estadio BBVA",
+   "lastUpdated": "2026-06-15T02:00:00Z"
+  },
+  {
+   "id": 13,
+   "utcDate": "2026-06-15T22:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_H",
+   "homeTeam": {
+    "id": 1036,
+    "name": "Saudi Arabia",
+    "shortName": "Saudi Arabia",
+    "tla": "KSA",
+    "crest": "https://flagcdn.com/w80/sa.png"
+   },
+   "awayTeam": {
+    "id": 1046,
+    "name": "Uruguay",
+    "shortName": "Uruguay",
+    "tla": "URU",
+    "crest": "https://flagcdn.com/w80/uy.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Hard Rock Stadium",
+   "lastUpdated": "2026-06-15T22:00:00Z"
+  },
+  {
+   "id": 14,
+   "utcDate": "2026-06-15T16:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_H",
+   "homeTeam": {
+    "id": 1040,
+    "name": "Spain",
+    "shortName": "Spain",
+    "tla": "ESP",
+    "crest": "https://flagcdn.com/w80/es.png"
+   },
+   "awayTeam": {
+    "id": 1007,
+    "name": "Cabo Verde",
+    "shortName": "Cabo Verde",
+    "tla": "CPV",
+    "crest": "https://flagcdn.com/w80/cv.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Mercedes-Benz Stadium",
+   "lastUpdated": "2026-06-15T16:00:00Z"
+  },
+  {
+   "id": 15,
+   "utcDate": "2026-06-16T01:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_G",
+   "homeTeam": {
+    "id": 1022,
+    "name": "IR Iran",
+    "shortName": "Iran",
+    "tla": "IRN",
+    "crest": "https://flagcdn.com/w80/ir.png"
+   },
+   "awayTeam": {
+    "id": 1030,
+    "name": "New Zealand",
+    "shortName": "New Zealand",
+    "tla": "NZL",
+    "crest": "https://flagcdn.com/w80/nz.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "SoFi Stadium",
+   "lastUpdated": "2026-06-16T01:00:00Z"
+  },
+  {
+   "id": 16,
+   "utcDate": "2026-06-15T19:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_G",
+   "homeTeam": {
+    "id": 1004,
+    "name": "Belgium",
+    "shortName": "Belgium",
+    "tla": "BEL",
+    "crest": "https://flagcdn.com/w80/be.png"
+   },
+   "awayTeam": {
+    "id": 1016,
+    "name": "Egypt",
+    "shortName": "Egypt",
+    "tla": "EGY",
+    "crest": "https://flagcdn.com/w80/eg.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Lumen Field",
+   "lastUpdated": "2026-06-15T19:00:00Z"
+  },
+  {
+   "id": 17,
+   "utcDate": "2026-06-16T19:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_I",
+   "homeTeam": {
+    "id": 1018,
+    "name": "France",
+    "shortName": "France",
+    "tla": "FRA",
+    "crest": "https://flagcdn.com/w80/fr.png"
+   },
+   "awayTeam": {
+    "id": 1038,
+    "name": "Senegal",
+    "shortName": "Senegal",
+    "tla": "SEN",
+    "crest": "https://flagcdn.com/w80/sn.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "MetLife Stadium",
+   "lastUpdated": "2026-06-16T19:00:00Z"
+  },
+  {
+   "id": 18,
+   "utcDate": "2026-06-16T22:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_I",
+   "homeTeam": {
+    "id": 1023,
+    "name": "Iraq",
+    "shortName": "Iraq",
+    "tla": "IRQ",
+    "crest": "https://flagcdn.com/w80/iq.png"
+   },
+   "awayTeam": {
+    "id": 1031,
+    "name": "Norway",
+    "shortName": "Norway",
+    "tla": "NOR",
+    "crest": "https://flagcdn.com/w80/no.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Gillette Stadium",
+   "lastUpdated": "2026-06-16T22:00:00Z"
+  },
+  {
+   "id": 19,
+   "utcDate": "2026-06-17T01:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_J",
+   "homeTeam": {
+    "id": 1001,
+    "name": "Argentina",
+    "shortName": "Argentina",
+    "tla": "ARG",
+    "crest": "https://flagcdn.com/w80/ar.png"
+   },
+   "awayTeam": {
+    "id": 1000,
+    "name": "Algeria",
+    "shortName": "Algeria",
+    "tla": "ALG",
+    "crest": "https://flagcdn.com/w80/dz.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Arrowhead Stadium",
+   "lastUpdated": "2026-06-17T01:00:00Z"
+  },
+  {
+   "id": 20,
+   "utcDate": "2026-06-17T04:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_J",
+   "homeTeam": {
+    "id": 1003,
+    "name": "Austria",
+    "shortName": "Austria",
+    "tla": "AUT",
+    "crest": "https://flagcdn.com/w80/at.png"
+   },
+   "awayTeam": {
+    "id": 1025,
+    "name": "Jordan",
+    "shortName": "Jordan",
+    "tla": "JOR",
+    "crest": "https://flagcdn.com/w80/jo.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Levi's Stadium",
+   "lastUpdated": "2026-06-17T04:00:00Z"
+  },
+  {
+   "id": 21,
+   "utcDate": "2026-06-17T23:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_L",
+   "homeTeam": {
+    "id": 1020,
+    "name": "Ghana",
+    "shortName": "Ghana",
+    "tla": "GHA",
+    "crest": "https://flagcdn.com/w80/gh.png"
+   },
+   "awayTeam": {
+    "id": 1032,
+    "name": "Panama",
+    "shortName": "Panama",
+    "tla": "PAN",
+    "crest": "https://flagcdn.com/w80/pa.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "BMO Field",
+   "lastUpdated": "2026-06-17T23:00:00Z"
+  },
+  {
+   "id": 22,
+   "utcDate": "2026-06-17T20:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_L",
+   "homeTeam": {
+    "id": 1017,
+    "name": "England",
+    "shortName": "England",
+    "tla": "ENG",
+    "crest": "https://flagcdn.com/w80/gb-eng.png"
+   },
+   "awayTeam": {
+    "id": 1011,
+    "name": "Croatia",
+    "shortName": "Croatia",
+    "tla": "CRO",
+    "crest": "https://flagcdn.com/w80/hr.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "AT&T Stadium",
+   "lastUpdated": "2026-06-17T20:00:00Z"
+  },
+  {
+   "id": 23,
+   "utcDate": "2026-06-17T17:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_K",
+   "homeTeam": {
+    "id": 1034,
+    "name": "Portugal",
+    "shortName": "Portugal",
+    "tla": "POR",
+    "crest": "https://flagcdn.com/w80/pt.png"
+   },
+   "awayTeam": {
+    "id": 1010,
+    "name": "Congo DR",
+    "shortName": "DR Congo",
+    "tla": "COD",
+    "crest": "https://flagcdn.com/w80/cd.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "NRG Stadium",
+   "lastUpdated": "2026-06-17T17:00:00Z"
+  },
+  {
+   "id": 24,
+   "utcDate": "2026-06-18T02:00:00Z",
+   "status": "TIMED",
+   "matchday": 1,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_K",
+   "homeTeam": {
+    "id": 1047,
+    "name": "Uzbekistan",
+    "shortName": "Uzbekistan",
+    "tla": "UZB",
+    "crest": "https://flagcdn.com/w80/uz.png"
+   },
+   "awayTeam": {
+    "id": 1009,
+    "name": "Colombia",
+    "shortName": "Colombia",
+    "tla": "COL",
+    "crest": "https://flagcdn.com/w80/co.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Estadio Azteca",
+   "lastUpdated": "2026-06-18T02:00:00Z"
+  },
+  {
+   "id": 25,
+   "utcDate": "2026-06-18T16:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_A",
+   "homeTeam": {
+    "id": 1013,
+    "name": "Czechia",
+    "shortName": "Czechia",
+    "tla": "CZE",
+    "crest": "https://flagcdn.com/w80/cz.png"
+   },
+   "awayTeam": {
+    "id": 1039,
+    "name": "South Africa",
+    "shortName": "South Africa",
+    "tla": "RSA",
+    "crest": "https://flagcdn.com/w80/za.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Mercedes-Benz Stadium",
+   "lastUpdated": "2026-06-18T16:00:00Z"
+  },
+  {
+   "id": 26,
+   "utcDate": "2026-06-18T19:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_B",
+   "homeTeam": {
+    "id": 1042,
+    "name": "Switzerland",
+    "shortName": "Switzerland",
+    "tla": "SUI",
+    "crest": "https://flagcdn.com/w80/ch.png"
+   },
+   "awayTeam": {
+    "id": 1005,
+    "name": "Bosnia and Herzegovina",
+    "shortName": "Bosnia",
+    "tla": "BIH",
+    "crest": "https://flagcdn.com/w80/ba.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "SoFi Stadium",
+   "lastUpdated": "2026-06-18T19:00:00Z"
+  },
+  {
+   "id": 27,
+   "utcDate": "2026-06-18T22:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_B",
+   "homeTeam": {
+    "id": 1008,
+    "name": "Canada",
+    "shortName": "Canada",
+    "tla": "CAN",
+    "crest": "https://flagcdn.com/w80/ca.png"
+   },
+   "awayTeam": {
+    "id": 1035,
+    "name": "Qatar",
+    "shortName": "Qatar",
+    "tla": "QAT",
+    "crest": "https://flagcdn.com/w80/qa.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "BC Place",
+   "lastUpdated": "2026-06-18T22:00:00Z"
+  },
+  {
+   "id": 28,
+   "utcDate": "2026-06-19T01:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_A",
+   "homeTeam": {
+    "id": 1027,
+    "name": "Mexico",
+    "shortName": "Mexico",
+    "tla": "MEX",
+    "crest": "https://flagcdn.com/w80/mx.png"
+   },
+   "awayTeam": {
+    "id": 1026,
+    "name": "Korea Republic",
+    "shortName": "South Korea",
+    "tla": "KOR",
+    "crest": "https://flagcdn.com/w80/kr.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Estadio Akron",
+   "lastUpdated": "2026-06-19T01:00:00Z"
+  },
+  {
+   "id": 29,
+   "utcDate": "2026-06-20T01:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_C",
+   "homeTeam": {
+    "id": 1006,
+    "name": "Brazil",
+    "shortName": "Brazil",
+    "tla": "BRA",
+    "crest": "https://flagcdn.com/w80/br.png"
+   },
+   "awayTeam": {
+    "id": 1021,
+    "name": "Haiti",
+    "shortName": "Haiti",
+    "tla": "HAI",
+    "crest": "https://flagcdn.com/w80/ht.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Lincoln Financial Field",
+   "lastUpdated": "2026-06-20T01:00:00Z"
+  },
+  {
+   "id": 30,
+   "utcDate": "2026-06-19T22:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_C",
+   "homeTeam": {
+    "id": 1037,
+    "name": "Scotland",
+    "shortName": "Scotland",
+    "tla": "SCO",
+    "crest": "https://flagcdn.com/w80/gb-sct.png"
+   },
+   "awayTeam": {
+    "id": 1028,
+    "name": "Morocco",
+    "shortName": "Morocco",
+    "tla": "MAR",
+    "crest": "https://flagcdn.com/w80/ma.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Gillette Stadium",
+   "lastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+   "id": 31,
+   "utcDate": "2026-06-20T04:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_D",
+   "homeTeam": {
+    "id": 1044,
+    "name": "Türkiye",
+    "shortName": "Türkiye",
+    "tla": "TUR",
+    "crest": "https://flagcdn.com/w80/tr.png"
+   },
+   "awayTeam": {
+    "id": 1033,
+    "name": "Paraguay",
+    "shortName": "Paraguay",
+    "tla": "PAR",
+    "crest": "https://flagcdn.com/w80/py.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Levi's Stadium",
+   "lastUpdated": "2026-06-20T04:00:00Z"
+  },
+  {
+   "id": 32,
+   "utcDate": "2026-06-19T19:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_D",
+   "homeTeam": {
+    "id": 1045,
+    "name": "USA",
+    "shortName": "USA",
+    "tla": "USA",
+    "crest": "https://flagcdn.com/w80/us.png"
+   },
+   "awayTeam": {
+    "id": 1002,
+    "name": "Australia",
+    "shortName": "Australia",
+    "tla": "AUS",
+    "crest": "https://flagcdn.com/w80/au.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Lumen Field",
+   "lastUpdated": "2026-06-19T19:00:00Z"
+  },
+  {
+   "id": 33,
+   "utcDate": "2026-06-20T20:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_E",
+   "homeTeam": {
+    "id": 1019,
+    "name": "Germany",
+    "shortName": "Germany",
+    "tla": "GER",
+    "crest": "https://flagcdn.com/w80/de.png"
+   },
+   "awayTeam": {
+    "id": 1014,
+    "name": "Côte d'Ivoire",
+    "shortName": "Côte d'Ivoire",
+    "tla": "CIV",
+    "crest": "https://flagcdn.com/w80/ci.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "BMO Field",
+   "lastUpdated": "2026-06-20T20:00:00Z"
+  },
+  {
+   "id": 34,
+   "utcDate": "2026-06-21T00:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_E",
+   "homeTeam": {
+    "id": 1015,
+    "name": "Ecuador",
+    "shortName": "Ecuador",
+    "tla": "ECU",
+    "crest": "https://flagcdn.com/w80/ec.png"
+   },
+   "awayTeam": {
+    "id": 1012,
+    "name": "Curaçao",
+    "shortName": "Curaçao",
+    "tla": "CUW",
+    "crest": "https://flagcdn.com/w80/cw.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Arrowhead Stadium",
+   "lastUpdated": "2026-06-21T00:00:00Z"
+  },
+  {
+   "id": 35,
+   "utcDate": "2026-06-20T17:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_F",
+   "homeTeam": {
+    "id": 1029,
+    "name": "Netherlands",
+    "shortName": "Netherlands",
+    "tla": "NED",
+    "crest": "https://flagcdn.com/w80/nl.png"
+   },
+   "awayTeam": {
+    "id": 1041,
+    "name": "Sweden",
+    "shortName": "Sweden",
+    "tla": "SWE",
+    "crest": "https://flagcdn.com/w80/se.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "NRG Stadium",
+   "lastUpdated": "2026-06-20T17:00:00Z"
+  },
+  {
+   "id": 36,
+   "utcDate": "2026-06-21T04:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_F",
+   "homeTeam": {
+    "id": 1043,
+    "name": "Tunisia",
+    "shortName": "Tunisia",
+    "tla": "TUN",
+    "crest": "https://flagcdn.com/w80/tn.png"
+   },
+   "awayTeam": {
+    "id": 1024,
+    "name": "Japan",
+    "shortName": "Japan",
+    "tla": "JPN",
+    "crest": "https://flagcdn.com/w80/jp.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Estadio BBVA",
+   "lastUpdated": "2026-06-21T04:00:00Z"
+  },
+  {
+   "id": 37,
+   "utcDate": "2026-06-21T22:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_H",
+   "homeTeam": {
+    "id": 1046,
+    "name": "Uruguay",
+    "shortName": "Uruguay",
+    "tla": "URU",
+    "crest": "https://flagcdn.com/w80/uy.png"
+   },
+   "awayTeam": {
+    "id": 1007,
+    "name": "Cabo Verde",
+    "shortName": "Cabo Verde",
+    "tla": "CPV",
+    "crest": "https://flagcdn.com/w80/cv.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Hard Rock Stadium",
+   "lastUpdated": "2026-06-21T22:00:00Z"
+  },
+  {
+   "id": 38,
+   "utcDate": "2026-06-21T16:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_H",
+   "homeTeam": {
+    "id": 1040,
+    "name": "Spain",
+    "shortName": "Spain",
+    "tla": "ESP",
+    "crest": "https://flagcdn.com/w80/es.png"
+   },
+   "awayTeam": {
+    "id": 1036,
+    "name": "Saudi Arabia",
+    "shortName": "Saudi Arabia",
+    "tla": "KSA",
+    "crest": "https://flagcdn.com/w80/sa.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Mercedes-Benz Stadium",
+   "lastUpdated": "2026-06-21T16:00:00Z"
+  },
+  {
+   "id": 39,
+   "utcDate": "2026-06-21T19:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_G",
+   "homeTeam": {
+    "id": 1004,
+    "name": "Belgium",
+    "shortName": "Belgium",
+    "tla": "BEL",
+    "crest": "https://flagcdn.com/w80/be.png"
+   },
+   "awayTeam": {
+    "id": 1022,
+    "name": "IR Iran",
+    "shortName": "Iran",
+    "tla": "IRN",
+    "crest": "https://flagcdn.com/w80/ir.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "SoFi Stadium",
+   "lastUpdated": "2026-06-21T19:00:00Z"
+  },
+  {
+   "id": 40,
+   "utcDate": "2026-06-22T01:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_G",
+   "homeTeam": {
+    "id": 1030,
+    "name": "New Zealand",
+    "shortName": "New Zealand",
+    "tla": "NZL",
+    "crest": "https://flagcdn.com/w80/nz.png"
+   },
+   "awayTeam": {
+    "id": 1016,
+    "name": "Egypt",
+    "shortName": "Egypt",
+    "tla": "EGY",
+    "crest": "https://flagcdn.com/w80/eg.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "BC Place",
+   "lastUpdated": "2026-06-22T01:00:00Z"
+  },
+  {
+   "id": 41,
+   "utcDate": "2026-06-23T00:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_I",
+   "homeTeam": {
+    "id": 1031,
+    "name": "Norway",
+    "shortName": "Norway",
+    "tla": "NOR",
+    "crest": "https://flagcdn.com/w80/no.png"
+   },
+   "awayTeam": {
+    "id": 1038,
+    "name": "Senegal",
+    "shortName": "Senegal",
+    "tla": "SEN",
+    "crest": "https://flagcdn.com/w80/sn.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "MetLife Stadium",
+   "lastUpdated": "2026-06-23T00:00:00Z"
+  },
+  {
+   "id": 42,
+   "utcDate": "2026-06-22T21:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_I",
+   "homeTeam": {
+    "id": 1018,
+    "name": "France",
+    "shortName": "France",
+    "tla": "FRA",
+    "crest": "https://flagcdn.com/w80/fr.png"
+   },
+   "awayTeam": {
+    "id": 1023,
+    "name": "Iraq",
+    "shortName": "Iraq",
+    "tla": "IRQ",
+    "crest": "https://flagcdn.com/w80/iq.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Lincoln Financial Field",
+   "lastUpdated": "2026-06-22T21:00:00Z"
+  },
+  {
+   "id": 43,
+   "utcDate": "2026-06-22T17:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_J",
+   "homeTeam": {
+    "id": 1001,
+    "name": "Argentina",
+    "shortName": "Argentina",
+    "tla": "ARG",
+    "crest": "https://flagcdn.com/w80/ar.png"
+   },
+   "awayTeam": {
+    "id": 1003,
+    "name": "Austria",
+    "shortName": "Austria",
+    "tla": "AUT",
+    "crest": "https://flagcdn.com/w80/at.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "AT&T Stadium",
+   "lastUpdated": "2026-06-22T17:00:00Z"
+  },
+  {
+   "id": 44,
+   "utcDate": "2026-06-23T03:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_J",
+   "homeTeam": {
+    "id": 1025,
+    "name": "Jordan",
+    "shortName": "Jordan",
+    "tla": "JOR",
+    "crest": "https://flagcdn.com/w80/jo.png"
+   },
+   "awayTeam": {
+    "id": 1000,
+    "name": "Algeria",
+    "shortName": "Algeria",
+    "tla": "ALG",
+    "crest": "https://flagcdn.com/w80/dz.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Levi's Stadium",
+   "lastUpdated": "2026-06-23T03:00:00Z"
+  },
+  {
+   "id": 45,
+   "utcDate": "2026-06-23T20:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_L",
+   "homeTeam": {
+    "id": 1017,
+    "name": "England",
+    "shortName": "England",
+    "tla": "ENG",
+    "crest": "https://flagcdn.com/w80/gb-eng.png"
+   },
+   "awayTeam": {
+    "id": 1020,
+    "name": "Ghana",
+    "shortName": "Ghana",
+    "tla": "GHA",
+    "crest": "https://flagcdn.com/w80/gh.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Gillette Stadium",
+   "lastUpdated": "2026-06-23T20:00:00Z"
+  },
+  {
+   "id": 46,
+   "utcDate": "2026-06-23T23:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_L",
+   "homeTeam": {
+    "id": 1032,
+    "name": "Panama",
+    "shortName": "Panama",
+    "tla": "PAN",
+    "crest": "https://flagcdn.com/w80/pa.png"
+   },
+   "awayTeam": {
+    "id": 1011,
+    "name": "Croatia",
+    "shortName": "Croatia",
+    "tla": "CRO",
+    "crest": "https://flagcdn.com/w80/hr.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "BMO Field",
+   "lastUpdated": "2026-06-23T23:00:00Z"
+  },
+  {
+   "id": 47,
+   "utcDate": "2026-06-23T17:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_K",
+   "homeTeam": {
+    "id": 1034,
+    "name": "Portugal",
+    "shortName": "Portugal",
+    "tla": "POR",
+    "crest": "https://flagcdn.com/w80/pt.png"
+   },
+   "awayTeam": {
+    "id": 1047,
+    "name": "Uzbekistan",
+    "shortName": "Uzbekistan",
+    "tla": "UZB",
+    "crest": "https://flagcdn.com/w80/uz.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "NRG Stadium",
+   "lastUpdated": "2026-06-23T17:00:00Z"
+  },
+  {
+   "id": 48,
+   "utcDate": "2026-06-24T02:00:00Z",
+   "status": "TIMED",
+   "matchday": 2,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_K",
+   "homeTeam": {
+    "id": 1009,
+    "name": "Colombia",
+    "shortName": "Colombia",
+    "tla": "COL",
+    "crest": "https://flagcdn.com/w80/co.png"
+   },
+   "awayTeam": {
+    "id": 1010,
+    "name": "Congo DR",
+    "shortName": "DR Congo",
+    "tla": "COD",
+    "crest": "https://flagcdn.com/w80/cd.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Estadio Akron",
+   "lastUpdated": "2026-06-24T02:00:00Z"
+  },
+  {
+   "id": 49,
+   "utcDate": "2026-06-24T22:00:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_C",
+   "homeTeam": {
+    "id": 1037,
+    "name": "Scotland",
+    "shortName": "Scotland",
+    "tla": "SCO",
+    "crest": "https://flagcdn.com/w80/gb-sct.png"
+   },
+   "awayTeam": {
+    "id": 1006,
+    "name": "Brazil",
+    "shortName": "Brazil",
+    "tla": "BRA",
+    "crest": "https://flagcdn.com/w80/br.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Hard Rock Stadium",
+   "lastUpdated": "2026-06-24T22:00:00Z"
+  },
+  {
+   "id": 50,
+   "utcDate": "2026-06-24T22:00:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_C",
+   "homeTeam": {
+    "id": 1028,
+    "name": "Morocco",
+    "shortName": "Morocco",
+    "tla": "MAR",
+    "crest": "https://flagcdn.com/w80/ma.png"
+   },
+   "awayTeam": {
+    "id": 1021,
+    "name": "Haiti",
+    "shortName": "Haiti",
+    "tla": "HAI",
+    "crest": "https://flagcdn.com/w80/ht.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Mercedes-Benz Stadium",
+   "lastUpdated": "2026-06-24T22:00:00Z"
+  },
+  {
+   "id": 51,
+   "utcDate": "2026-06-24T19:00:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_B",
+   "homeTeam": {
+    "id": 1042,
+    "name": "Switzerland",
+    "shortName": "Switzerland",
+    "tla": "SUI",
+    "crest": "https://flagcdn.com/w80/ch.png"
+   },
+   "awayTeam": {
+    "id": 1008,
+    "name": "Canada",
+    "shortName": "Canada",
+    "tla": "CAN",
+    "crest": "https://flagcdn.com/w80/ca.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "BC Place",
+   "lastUpdated": "2026-06-24T19:00:00Z"
+  },
+  {
+   "id": 52,
+   "utcDate": "2026-06-24T19:00:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_B",
+   "homeTeam": {
+    "id": 1005,
+    "name": "Bosnia and Herzegovina",
+    "shortName": "Bosnia",
+    "tla": "BIH",
+    "crest": "https://flagcdn.com/w80/ba.png"
+   },
+   "awayTeam": {
+    "id": 1035,
+    "name": "Qatar",
+    "shortName": "Qatar",
+    "tla": "QAT",
+    "crest": "https://flagcdn.com/w80/qa.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Lumen Field",
+   "lastUpdated": "2026-06-24T19:00:00Z"
+  },
+  {
+   "id": 53,
+   "utcDate": "2026-06-25T01:00:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_A",
+   "homeTeam": {
+    "id": 1013,
+    "name": "Czechia",
+    "shortName": "Czechia",
+    "tla": "CZE",
+    "crest": "https://flagcdn.com/w80/cz.png"
+   },
+   "awayTeam": {
+    "id": 1027,
+    "name": "Mexico",
+    "shortName": "Mexico",
+    "tla": "MEX",
+    "crest": "https://flagcdn.com/w80/mx.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Estadio Azteca",
+   "lastUpdated": "2026-06-25T01:00:00Z"
+  },
+  {
+   "id": 54,
+   "utcDate": "2026-06-25T01:00:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_A",
+   "homeTeam": {
+    "id": 1039,
+    "name": "South Africa",
+    "shortName": "South Africa",
+    "tla": "RSA",
+    "crest": "https://flagcdn.com/w80/za.png"
+   },
+   "awayTeam": {
+    "id": 1026,
+    "name": "Korea Republic",
+    "shortName": "South Korea",
+    "tla": "KOR",
+    "crest": "https://flagcdn.com/w80/kr.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Estadio BBVA",
+   "lastUpdated": "2026-06-25T01:00:00Z"
+  },
+  {
+   "id": 55,
+   "utcDate": "2026-06-25T20:00:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_E",
+   "homeTeam": {
+    "id": 1012,
+    "name": "Curaçao",
+    "shortName": "Curaçao",
+    "tla": "CUW",
+    "crest": "https://flagcdn.com/w80/cw.png"
+   },
+   "awayTeam": {
+    "id": 1014,
+    "name": "Côte d'Ivoire",
+    "shortName": "Côte d'Ivoire",
+    "tla": "CIV",
+    "crest": "https://flagcdn.com/w80/ci.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Lincoln Financial Field",
+   "lastUpdated": "2026-06-25T20:00:00Z"
+  },
+  {
+   "id": 56,
+   "utcDate": "2026-06-25T20:00:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_E",
+   "homeTeam": {
+    "id": 1015,
+    "name": "Ecuador",
+    "shortName": "Ecuador",
+    "tla": "ECU",
+    "crest": "https://flagcdn.com/w80/ec.png"
+   },
+   "awayTeam": {
+    "id": 1019,
+    "name": "Germany",
+    "shortName": "Germany",
+    "tla": "GER",
+    "crest": "https://flagcdn.com/w80/de.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "MetLife Stadium",
+   "lastUpdated": "2026-06-25T20:00:00Z"
+  },
+  {
+   "id": 57,
+   "utcDate": "2026-06-25T23:00:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_F",
+   "homeTeam": {
+    "id": 1024,
+    "name": "Japan",
+    "shortName": "Japan",
+    "tla": "JPN",
+    "crest": "https://flagcdn.com/w80/jp.png"
+   },
+   "awayTeam": {
+    "id": 1041,
+    "name": "Sweden",
+    "shortName": "Sweden",
+    "tla": "SWE",
+    "crest": "https://flagcdn.com/w80/se.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "AT&T Stadium",
+   "lastUpdated": "2026-06-25T23:00:00Z"
+  },
+  {
+   "id": 58,
+   "utcDate": "2026-06-25T23:00:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_F",
+   "homeTeam": {
+    "id": 1043,
+    "name": "Tunisia",
+    "shortName": "Tunisia",
+    "tla": "TUN",
+    "crest": "https://flagcdn.com/w80/tn.png"
+   },
+   "awayTeam": {
+    "id": 1029,
+    "name": "Netherlands",
+    "shortName": "Netherlands",
+    "tla": "NED",
+    "crest": "https://flagcdn.com/w80/nl.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Arrowhead Stadium",
+   "lastUpdated": "2026-06-25T23:00:00Z"
+  },
+  {
+   "id": 59,
+   "utcDate": "2026-06-26T02:00:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_D",
+   "homeTeam": {
+    "id": 1044,
+    "name": "Türkiye",
+    "shortName": "Türkiye",
+    "tla": "TUR",
+    "crest": "https://flagcdn.com/w80/tr.png"
+   },
+   "awayTeam": {
+    "id": 1045,
+    "name": "USA",
+    "shortName": "USA",
+    "tla": "USA",
+    "crest": "https://flagcdn.com/w80/us.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "SoFi Stadium",
+   "lastUpdated": "2026-06-26T02:00:00Z"
+  },
+  {
+   "id": 60,
+   "utcDate": "2026-06-26T02:00:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_D",
+   "homeTeam": {
+    "id": 1033,
+    "name": "Paraguay",
+    "shortName": "Paraguay",
+    "tla": "PAR",
+    "crest": "https://flagcdn.com/w80/py.png"
+   },
+   "awayTeam": {
+    "id": 1002,
+    "name": "Australia",
+    "shortName": "Australia",
+    "tla": "AUS",
+    "crest": "https://flagcdn.com/w80/au.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Levi's Stadium",
+   "lastUpdated": "2026-06-26T02:00:00Z"
+  },
+  {
+   "id": 61,
+   "utcDate": "2026-06-26T19:00:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_I",
+   "homeTeam": {
+    "id": 1031,
+    "name": "Norway",
+    "shortName": "Norway",
+    "tla": "NOR",
+    "crest": "https://flagcdn.com/w80/no.png"
+   },
+   "awayTeam": {
+    "id": 1018,
+    "name": "France",
+    "shortName": "France",
+    "tla": "FRA",
+    "crest": "https://flagcdn.com/w80/fr.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Gillette Stadium",
+   "lastUpdated": "2026-06-26T19:00:00Z"
+  },
+  {
+   "id": 62,
+   "utcDate": "2026-06-26T19:00:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_I",
+   "homeTeam": {
+    "id": 1038,
+    "name": "Senegal",
+    "shortName": "Senegal",
+    "tla": "SEN",
+    "crest": "https://flagcdn.com/w80/sn.png"
+   },
+   "awayTeam": {
+    "id": 1023,
+    "name": "Iraq",
+    "shortName": "Iraq",
+    "tla": "IRQ",
+    "crest": "https://flagcdn.com/w80/iq.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "BMO Field",
+   "lastUpdated": "2026-06-26T19:00:00Z"
+  },
+  {
+   "id": 63,
+   "utcDate": "2026-06-27T03:00:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_G",
+   "homeTeam": {
+    "id": 1016,
+    "name": "Egypt",
+    "shortName": "Egypt",
+    "tla": "EGY",
+    "crest": "https://flagcdn.com/w80/eg.png"
+   },
+   "awayTeam": {
+    "id": 1022,
+    "name": "IR Iran",
+    "shortName": "Iran",
+    "tla": "IRN",
+    "crest": "https://flagcdn.com/w80/ir.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Lumen Field",
+   "lastUpdated": "2026-06-27T03:00:00Z"
+  },
+  {
+   "id": 64,
+   "utcDate": "2026-06-27T03:00:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_G",
+   "homeTeam": {
+    "id": 1030,
+    "name": "New Zealand",
+    "shortName": "New Zealand",
+    "tla": "NZL",
+    "crest": "https://flagcdn.com/w80/nz.png"
+   },
+   "awayTeam": {
+    "id": 1004,
+    "name": "Belgium",
+    "shortName": "Belgium",
+    "tla": "BEL",
+    "crest": "https://flagcdn.com/w80/be.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "BC Place",
+   "lastUpdated": "2026-06-27T03:00:00Z"
+  },
+  {
+   "id": 65,
+   "utcDate": "2026-06-27T00:00:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_H",
+   "homeTeam": {
+    "id": 1007,
+    "name": "Cabo Verde",
+    "shortName": "Cabo Verde",
+    "tla": "CPV",
+    "crest": "https://flagcdn.com/w80/cv.png"
+   },
+   "awayTeam": {
+    "id": 1036,
+    "name": "Saudi Arabia",
+    "shortName": "Saudi Arabia",
+    "tla": "KSA",
+    "crest": "https://flagcdn.com/w80/sa.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "NRG Stadium",
+   "lastUpdated": "2026-06-27T00:00:00Z"
+  },
+  {
+   "id": 66,
+   "utcDate": "2026-06-27T00:00:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_H",
+   "homeTeam": {
+    "id": 1046,
+    "name": "Uruguay",
+    "shortName": "Uruguay",
+    "tla": "URU",
+    "crest": "https://flagcdn.com/w80/uy.png"
+   },
+   "awayTeam": {
+    "id": 1040,
+    "name": "Spain",
+    "shortName": "Spain",
+    "tla": "ESP",
+    "crest": "https://flagcdn.com/w80/es.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Estadio Akron",
+   "lastUpdated": "2026-06-27T00:00:00Z"
+  },
+  {
+   "id": 67,
+   "utcDate": "2026-06-27T21:00:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_L",
+   "homeTeam": {
+    "id": 1032,
+    "name": "Panama",
+    "shortName": "Panama",
+    "tla": "PAN",
+    "crest": "https://flagcdn.com/w80/pa.png"
+   },
+   "awayTeam": {
+    "id": 1017,
+    "name": "England",
+    "shortName": "England",
+    "tla": "ENG",
+    "crest": "https://flagcdn.com/w80/gb-eng.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "MetLife Stadium",
+   "lastUpdated": "2026-06-27T21:00:00Z"
+  },
+  {
+   "id": 68,
+   "utcDate": "2026-06-27T21:00:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_L",
+   "homeTeam": {
+    "id": 1011,
+    "name": "Croatia",
+    "shortName": "Croatia",
+    "tla": "CRO",
+    "crest": "https://flagcdn.com/w80/hr.png"
+   },
+   "awayTeam": {
+    "id": 1020,
+    "name": "Ghana",
+    "shortName": "Ghana",
+    "tla": "GHA",
+    "crest": "https://flagcdn.com/w80/gh.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Lincoln Financial Field",
+   "lastUpdated": "2026-06-27T21:00:00Z"
+  },
+  {
+   "id": 69,
+   "utcDate": "2026-06-28T02:00:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_J",
+   "homeTeam": {
+    "id": 1000,
+    "name": "Algeria",
+    "shortName": "Algeria",
+    "tla": "ALG",
+    "crest": "https://flagcdn.com/w80/dz.png"
+   },
+   "awayTeam": {
+    "id": 1003,
+    "name": "Austria",
+    "shortName": "Austria",
+    "tla": "AUT",
+    "crest": "https://flagcdn.com/w80/at.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Arrowhead Stadium",
+   "lastUpdated": "2026-06-28T02:00:00Z"
+  },
+  {
+   "id": 70,
+   "utcDate": "2026-06-28T02:00:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_J",
+   "homeTeam": {
+    "id": 1025,
+    "name": "Jordan",
+    "shortName": "Jordan",
+    "tla": "JOR",
+    "crest": "https://flagcdn.com/w80/jo.png"
+   },
+   "awayTeam": {
+    "id": 1001,
+    "name": "Argentina",
+    "shortName": "Argentina",
+    "tla": "ARG",
+    "crest": "https://flagcdn.com/w80/ar.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "AT&T Stadium",
+   "lastUpdated": "2026-06-28T02:00:00Z"
+  },
+  {
+   "id": 71,
+   "utcDate": "2026-06-27T23:30:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_K",
+   "homeTeam": {
+    "id": 1009,
+    "name": "Colombia",
+    "shortName": "Colombia",
+    "tla": "COL",
+    "crest": "https://flagcdn.com/w80/co.png"
+   },
+   "awayTeam": {
+    "id": 1034,
+    "name": "Portugal",
+    "shortName": "Portugal",
+    "tla": "POR",
+    "crest": "https://flagcdn.com/w80/pt.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Hard Rock Stadium",
+   "lastUpdated": "2026-06-27T23:30:00Z"
+  },
+  {
+   "id": 72,
+   "utcDate": "2026-06-27T23:30:00Z",
+   "status": "TIMED",
+   "matchday": 3,
+   "stage": "GROUP_STAGE",
+   "group": "GROUP_K",
+   "homeTeam": {
+    "id": 1010,
+    "name": "Congo DR",
+    "shortName": "DR Congo",
+    "tla": "COD",
+    "crest": "https://flagcdn.com/w80/cd.png"
+   },
+   "awayTeam": {
+    "id": 1047,
+    "name": "Uzbekistan",
+    "shortName": "Uzbekistan",
+    "tla": "UZB",
+    "crest": "https://flagcdn.com/w80/uz.png"
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Mercedes-Benz Stadium",
+   "lastUpdated": "2026-06-27T23:30:00Z"
+  },
+  {
+   "id": 73,
+   "utcDate": "2026-06-28T19:00:00Z",
+   "status": "TIMED",
+   "matchday": 4,
+   "stage": "LAST_32",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": "Group A runners-up",
+    "shortName": "Group A runners-up",
+    "tla": "2A",
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": "Group B runners-up",
+    "shortName": "Group B runners-up",
+    "tla": "2B",
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "SoFi Stadium",
+   "lastUpdated": "2026-06-28T19:00:00Z"
+  },
+  {
+   "id": 74,
+   "utcDate": "2026-06-29T20:30:00Z",
+   "status": "TIMED",
+   "matchday": 4,
+   "stage": "LAST_32",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": "Group E winners",
+    "shortName": "Group E winners",
+    "tla": "1E",
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": "3rd A/B/C/D/F",
+    "shortName": "3rd A/B/C/D/F",
+    "tla": "3RD",
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Gillette Stadium",
+   "lastUpdated": "2026-06-29T20:30:00Z"
+  },
+  {
+   "id": 75,
+   "utcDate": "2026-06-30T01:00:00Z",
+   "status": "TIMED",
+   "matchday": 4,
+   "stage": "LAST_32",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": "Group F winners",
+    "shortName": "Group F winners",
+    "tla": "1F",
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": "Group C runners-up",
+    "shortName": "Group C runners-up",
+    "tla": "2C",
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Estadio BBVA",
+   "lastUpdated": "2026-06-30T01:00:00Z"
+  },
+  {
+   "id": 76,
+   "utcDate": "2026-06-29T17:00:00Z",
+   "status": "TIMED",
+   "matchday": 4,
+   "stage": "LAST_32",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": "Group C winners",
+    "shortName": "Group C winners",
+    "tla": "1C",
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": "Group F runners-up",
+    "shortName": "Group F runners-up",
+    "tla": "2F",
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "NRG Stadium",
+   "lastUpdated": "2026-06-29T17:00:00Z"
+  },
+  {
+   "id": 77,
+   "utcDate": "2026-06-30T21:00:00Z",
+   "status": "TIMED",
+   "matchday": 4,
+   "stage": "LAST_32",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": "Group I winners",
+    "shortName": "Group I winners",
+    "tla": "1I",
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": "3rd C/D/F/G/H",
+    "shortName": "3rd C/D/F/G/H",
+    "tla": "3RD",
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "MetLife Stadium",
+   "lastUpdated": "2026-06-30T21:00:00Z"
+  },
+  {
+   "id": 78,
+   "utcDate": "2026-06-30T17:00:00Z",
+   "status": "TIMED",
+   "matchday": 4,
+   "stage": "LAST_32",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": "Group E runners-up",
+    "shortName": "Group E runners-up",
+    "tla": "2E",
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": "Group I runners-up",
+    "shortName": "Group I runners-up",
+    "tla": "2I",
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "AT&T Stadium",
+   "lastUpdated": "2026-06-30T17:00:00Z"
+  },
+  {
+   "id": 79,
+   "utcDate": "2026-07-01T01:00:00Z",
+   "status": "TIMED",
+   "matchday": 4,
+   "stage": "LAST_32",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": "Group A winners",
+    "shortName": "Group A winners",
+    "tla": "1A",
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": "3rd C/E/F/H/I",
+    "shortName": "3rd C/E/F/H/I",
+    "tla": "3RD",
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Estadio Azteca",
+   "lastUpdated": "2026-07-01T01:00:00Z"
+  },
+  {
+   "id": 80,
+   "utcDate": "2026-07-01T16:00:00Z",
+   "status": "TIMED",
+   "matchday": 4,
+   "stage": "LAST_32",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": "Group L winners",
+    "shortName": "Group L winners",
+    "tla": "1L",
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": "3rd E/H/I/J/K",
+    "shortName": "3rd E/H/I/J/K",
+    "tla": "3RD",
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Mercedes-Benz Stadium",
+   "lastUpdated": "2026-07-01T16:00:00Z"
+  },
+  {
+   "id": 81,
+   "utcDate": "2026-07-02T00:00:00Z",
+   "status": "TIMED",
+   "matchday": 4,
+   "stage": "LAST_32",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": "Group D winners",
+    "shortName": "Group D winners",
+    "tla": "1D",
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": "3rd B/E/F/I/J",
+    "shortName": "3rd B/E/F/I/J",
+    "tla": "3RD",
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Levi's Stadium",
+   "lastUpdated": "2026-07-02T00:00:00Z"
+  },
+  {
+   "id": 82,
+   "utcDate": "2026-07-01T20:00:00Z",
+   "status": "TIMED",
+   "matchday": 4,
+   "stage": "LAST_32",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": "Group G winners",
+    "shortName": "Group G winners",
+    "tla": "1G",
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": "3rd A/E/H/I/J",
+    "shortName": "3rd A/E/H/I/J",
+    "tla": "3RD",
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Lumen Field",
+   "lastUpdated": "2026-07-01T20:00:00Z"
+  },
+  {
+   "id": 83,
+   "utcDate": "2026-07-02T23:00:00Z",
+   "status": "TIMED",
+   "matchday": 4,
+   "stage": "LAST_32",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": "Group K runners-up",
+    "shortName": "Group K runners-up",
+    "tla": "2K",
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": "Group L runners-up",
+    "shortName": "Group L runners-up",
+    "tla": "2L",
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "BMO Field",
+   "lastUpdated": "2026-07-02T23:00:00Z"
+  },
+  {
+   "id": 84,
+   "utcDate": "2026-07-02T19:00:00Z",
+   "status": "TIMED",
+   "matchday": 4,
+   "stage": "LAST_32",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": "Group H winners",
+    "shortName": "Group H winners",
+    "tla": "1H",
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": "Group J runners-up",
+    "shortName": "Group J runners-up",
+    "tla": "2J",
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "SoFi Stadium",
+   "lastUpdated": "2026-07-02T19:00:00Z"
+  },
+  {
+   "id": 85,
+   "utcDate": "2026-07-03T03:00:00Z",
+   "status": "TIMED",
+   "matchday": 4,
+   "stage": "LAST_32",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": "Group B winners",
+    "shortName": "Group B winners",
+    "tla": "1B",
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": "3rd E/F/G/I/J",
+    "shortName": "3rd E/F/G/I/J",
+    "tla": "3RD",
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "BC Place",
+   "lastUpdated": "2026-07-03T03:00:00Z"
+  },
+  {
+   "id": 86,
+   "utcDate": "2026-07-03T22:00:00Z",
+   "status": "TIMED",
+   "matchday": 4,
+   "stage": "LAST_32",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": "Group J winners",
+    "shortName": "Group J winners",
+    "tla": "1J",
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": "Group H runners-up",
+    "shortName": "Group H runners-up",
+    "tla": "2H",
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Hard Rock Stadium",
+   "lastUpdated": "2026-07-03T22:00:00Z"
+  },
+  {
+   "id": 87,
+   "utcDate": "2026-07-04T01:30:00Z",
+   "status": "TIMED",
+   "matchday": 4,
+   "stage": "LAST_32",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": "Group K winners",
+    "shortName": "Group K winners",
+    "tla": "1K",
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": "3rd D/E/I/J/L",
+    "shortName": "3rd D/E/I/J/L",
+    "tla": "3RD",
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Arrowhead Stadium",
+   "lastUpdated": "2026-07-04T01:30:00Z"
+  },
+  {
+   "id": 88,
+   "utcDate": "2026-07-03T18:00:00Z",
+   "status": "TIMED",
+   "matchday": 4,
+   "stage": "LAST_32",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": "Group D runners-up",
+    "shortName": "Group D runners-up",
+    "tla": "2D",
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": "Group G runners-up",
+    "shortName": "Group G runners-up",
+    "tla": "2G",
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "AT&T Stadium",
+   "lastUpdated": "2026-07-03T18:00:00Z"
+  },
+  {
+   "id": 89,
+   "utcDate": "2026-07-04T21:00:00Z",
+   "status": "TIMED",
+   "matchday": 5,
+   "stage": "LAST_16",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Lincoln Financial Field",
+   "lastUpdated": "2026-07-04T21:00:00Z"
+  },
+  {
+   "id": 90,
+   "utcDate": "2026-07-04T17:00:00Z",
+   "status": "TIMED",
+   "matchday": 5,
+   "stage": "LAST_16",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "NRG Stadium",
+   "lastUpdated": "2026-07-04T17:00:00Z"
+  },
+  {
+   "id": 91,
+   "utcDate": "2026-07-05T20:00:00Z",
+   "status": "TIMED",
+   "matchday": 5,
+   "stage": "LAST_16",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "MetLife Stadium",
+   "lastUpdated": "2026-07-05T20:00:00Z"
+  },
+  {
+   "id": 92,
+   "utcDate": "2026-07-06T00:00:00Z",
+   "status": "TIMED",
+   "matchday": 5,
+   "stage": "LAST_16",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Estadio Azteca",
+   "lastUpdated": "2026-07-06T00:00:00Z"
+  },
+  {
+   "id": 93,
+   "utcDate": "2026-07-06T19:00:00Z",
+   "status": "TIMED",
+   "matchday": 5,
+   "stage": "LAST_16",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "AT&T Stadium",
+   "lastUpdated": "2026-07-06T19:00:00Z"
+  },
+  {
+   "id": 94,
+   "utcDate": "2026-07-07T00:00:00Z",
+   "status": "TIMED",
+   "matchday": 5,
+   "stage": "LAST_16",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Lumen Field",
+   "lastUpdated": "2026-07-07T00:00:00Z"
+  },
+  {
+   "id": 95,
+   "utcDate": "2026-07-07T16:00:00Z",
+   "status": "TIMED",
+   "matchday": 5,
+   "stage": "LAST_16",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Mercedes-Benz Stadium",
+   "lastUpdated": "2026-07-07T16:00:00Z"
+  },
+  {
+   "id": 96,
+   "utcDate": "2026-07-07T20:00:00Z",
+   "status": "TIMED",
+   "matchday": 5,
+   "stage": "LAST_16",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "BC Place",
+   "lastUpdated": "2026-07-07T20:00:00Z"
+  },
+  {
+   "id": 97,
+   "utcDate": "2026-07-09T20:00:00Z",
+   "status": "TIMED",
+   "matchday": 6,
+   "stage": "QUARTER_FINALS",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Gillette Stadium",
+   "lastUpdated": "2026-07-09T20:00:00Z"
+  },
+  {
+   "id": 98,
+   "utcDate": "2026-07-10T19:00:00Z",
+   "status": "TIMED",
+   "matchday": 6,
+   "stage": "QUARTER_FINALS",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "SoFi Stadium",
+   "lastUpdated": "2026-07-10T19:00:00Z"
+  },
+  {
+   "id": 99,
+   "utcDate": "2026-07-11T21:00:00Z",
+   "status": "TIMED",
+   "matchday": 6,
+   "stage": "QUARTER_FINALS",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Hard Rock Stadium",
+   "lastUpdated": "2026-07-11T21:00:00Z"
+  },
+  {
+   "id": 100,
+   "utcDate": "2026-07-12T01:00:00Z",
+   "status": "TIMED",
+   "matchday": 6,
+   "stage": "QUARTER_FINALS",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Arrowhead Stadium",
+   "lastUpdated": "2026-07-12T01:00:00Z"
+  },
+  {
+   "id": 101,
+   "utcDate": "2026-07-14T19:00:00Z",
+   "status": "TIMED",
+   "matchday": 7,
+   "stage": "SEMI_FINALS",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "AT&T Stadium",
+   "lastUpdated": "2026-07-14T19:00:00Z"
+  },
+  {
+   "id": 102,
+   "utcDate": "2026-07-15T19:00:00Z",
+   "status": "TIMED",
+   "matchday": 7,
+   "stage": "SEMI_FINALS",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Mercedes-Benz Stadium",
+   "lastUpdated": "2026-07-15T19:00:00Z"
+  },
+  {
+   "id": 103,
+   "utcDate": "2026-07-18T21:00:00Z",
+   "status": "TIMED",
+   "matchday": 8,
+   "stage": "THIRD_PLACE",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "Hard Rock Stadium",
+   "lastUpdated": "2026-07-18T21:00:00Z"
+  },
+  {
+   "id": 104,
+   "utcDate": "2026-07-19T19:00:00Z",
+   "status": "TIMED",
+   "matchday": 8,
+   "stage": "FINAL",
+   "group": null,
+   "homeTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "awayTeam": {
+    "id": null,
+    "name": null,
+    "shortName": null,
+    "tla": null,
+    "crest": null
+   },
+   "score": {
+    "winner": null,
+    "duration": "REGULAR",
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   },
+   "venue": "MetLife Stadium",
+   "lastUpdated": "2026-07-19T19:00:00Z"
+  }
+ ],
+ "standings": [
+  {
+   "stage": "GROUP_STAGE",
+   "type": "TOTAL",
+   "group": "GROUP_A",
+   "table": [
+    {
+     "position": 1,
+     "team": {
+      "id": 1013,
+      "name": "Czechia",
+      "shortName": "Czechia",
+      "tla": "CZE",
+      "crest": "https://flagcdn.com/w80/cz.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 2,
+     "team": {
+      "id": 1026,
+      "name": "Korea Republic",
+      "shortName": "South Korea",
+      "tla": "KOR",
+      "crest": "https://flagcdn.com/w80/kr.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 3,
+     "team": {
+      "id": 1027,
+      "name": "Mexico",
+      "shortName": "Mexico",
+      "tla": "MEX",
+      "crest": "https://flagcdn.com/w80/mx.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 4,
+     "team": {
+      "id": 1039,
+      "name": "South Africa",
+      "shortName": "South Africa",
+      "tla": "RSA",
+      "crest": "https://flagcdn.com/w80/za.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    }
+   ]
+  },
+  {
+   "stage": "GROUP_STAGE",
+   "type": "TOTAL",
+   "group": "GROUP_B",
+   "table": [
+    {
+     "position": 1,
+     "team": {
+      "id": 1005,
+      "name": "Bosnia and Herzegovina",
+      "shortName": "Bosnia",
+      "tla": "BIH",
+      "crest": "https://flagcdn.com/w80/ba.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 2,
+     "team": {
+      "id": 1008,
+      "name": "Canada",
+      "shortName": "Canada",
+      "tla": "CAN",
+      "crest": "https://flagcdn.com/w80/ca.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 3,
+     "team": {
+      "id": 1035,
+      "name": "Qatar",
+      "shortName": "Qatar",
+      "tla": "QAT",
+      "crest": "https://flagcdn.com/w80/qa.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 4,
+     "team": {
+      "id": 1042,
+      "name": "Switzerland",
+      "shortName": "Switzerland",
+      "tla": "SUI",
+      "crest": "https://flagcdn.com/w80/ch.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    }
+   ]
+  },
+  {
+   "stage": "GROUP_STAGE",
+   "type": "TOTAL",
+   "group": "GROUP_C",
+   "table": [
+    {
+     "position": 1,
+     "team": {
+      "id": 1006,
+      "name": "Brazil",
+      "shortName": "Brazil",
+      "tla": "BRA",
+      "crest": "https://flagcdn.com/w80/br.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 2,
+     "team": {
+      "id": 1021,
+      "name": "Haiti",
+      "shortName": "Haiti",
+      "tla": "HAI",
+      "crest": "https://flagcdn.com/w80/ht.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 3,
+     "team": {
+      "id": 1028,
+      "name": "Morocco",
+      "shortName": "Morocco",
+      "tla": "MAR",
+      "crest": "https://flagcdn.com/w80/ma.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 4,
+     "team": {
+      "id": 1037,
+      "name": "Scotland",
+      "shortName": "Scotland",
+      "tla": "SCO",
+      "crest": "https://flagcdn.com/w80/gb-sct.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    }
+   ]
+  },
+  {
+   "stage": "GROUP_STAGE",
+   "type": "TOTAL",
+   "group": "GROUP_D",
+   "table": [
+    {
+     "position": 1,
+     "team": {
+      "id": 1002,
+      "name": "Australia",
+      "shortName": "Australia",
+      "tla": "AUS",
+      "crest": "https://flagcdn.com/w80/au.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 2,
+     "team": {
+      "id": 1033,
+      "name": "Paraguay",
+      "shortName": "Paraguay",
+      "tla": "PAR",
+      "crest": "https://flagcdn.com/w80/py.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 3,
+     "team": {
+      "id": 1044,
+      "name": "Türkiye",
+      "shortName": "Türkiye",
+      "tla": "TUR",
+      "crest": "https://flagcdn.com/w80/tr.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 4,
+     "team": {
+      "id": 1045,
+      "name": "USA",
+      "shortName": "USA",
+      "tla": "USA",
+      "crest": "https://flagcdn.com/w80/us.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    }
+   ]
+  },
+  {
+   "stage": "GROUP_STAGE",
+   "type": "TOTAL",
+   "group": "GROUP_E",
+   "table": [
+    {
+     "position": 1,
+     "team": {
+      "id": 1012,
+      "name": "Curaçao",
+      "shortName": "Curaçao",
+      "tla": "CUW",
+      "crest": "https://flagcdn.com/w80/cw.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 2,
+     "team": {
+      "id": 1014,
+      "name": "Côte d'Ivoire",
+      "shortName": "Côte d'Ivoire",
+      "tla": "CIV",
+      "crest": "https://flagcdn.com/w80/ci.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 3,
+     "team": {
+      "id": 1015,
+      "name": "Ecuador",
+      "shortName": "Ecuador",
+      "tla": "ECU",
+      "crest": "https://flagcdn.com/w80/ec.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 4,
+     "team": {
+      "id": 1019,
+      "name": "Germany",
+      "shortName": "Germany",
+      "tla": "GER",
+      "crest": "https://flagcdn.com/w80/de.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    }
+   ]
+  },
+  {
+   "stage": "GROUP_STAGE",
+   "type": "TOTAL",
+   "group": "GROUP_F",
+   "table": [
+    {
+     "position": 1,
+     "team": {
+      "id": 1024,
+      "name": "Japan",
+      "shortName": "Japan",
+      "tla": "JPN",
+      "crest": "https://flagcdn.com/w80/jp.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 2,
+     "team": {
+      "id": 1029,
+      "name": "Netherlands",
+      "shortName": "Netherlands",
+      "tla": "NED",
+      "crest": "https://flagcdn.com/w80/nl.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 3,
+     "team": {
+      "id": 1041,
+      "name": "Sweden",
+      "shortName": "Sweden",
+      "tla": "SWE",
+      "crest": "https://flagcdn.com/w80/se.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 4,
+     "team": {
+      "id": 1043,
+      "name": "Tunisia",
+      "shortName": "Tunisia",
+      "tla": "TUN",
+      "crest": "https://flagcdn.com/w80/tn.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    }
+   ]
+  },
+  {
+   "stage": "GROUP_STAGE",
+   "type": "TOTAL",
+   "group": "GROUP_G",
+   "table": [
+    {
+     "position": 1,
+     "team": {
+      "id": 1004,
+      "name": "Belgium",
+      "shortName": "Belgium",
+      "tla": "BEL",
+      "crest": "https://flagcdn.com/w80/be.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 2,
+     "team": {
+      "id": 1016,
+      "name": "Egypt",
+      "shortName": "Egypt",
+      "tla": "EGY",
+      "crest": "https://flagcdn.com/w80/eg.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 3,
+     "team": {
+      "id": 1022,
+      "name": "IR Iran",
+      "shortName": "Iran",
+      "tla": "IRN",
+      "crest": "https://flagcdn.com/w80/ir.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 4,
+     "team": {
+      "id": 1030,
+      "name": "New Zealand",
+      "shortName": "New Zealand",
+      "tla": "NZL",
+      "crest": "https://flagcdn.com/w80/nz.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    }
+   ]
+  },
+  {
+   "stage": "GROUP_STAGE",
+   "type": "TOTAL",
+   "group": "GROUP_H",
+   "table": [
+    {
+     "position": 1,
+     "team": {
+      "id": 1007,
+      "name": "Cabo Verde",
+      "shortName": "Cabo Verde",
+      "tla": "CPV",
+      "crest": "https://flagcdn.com/w80/cv.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 2,
+     "team": {
+      "id": 1036,
+      "name": "Saudi Arabia",
+      "shortName": "Saudi Arabia",
+      "tla": "KSA",
+      "crest": "https://flagcdn.com/w80/sa.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 3,
+     "team": {
+      "id": 1040,
+      "name": "Spain",
+      "shortName": "Spain",
+      "tla": "ESP",
+      "crest": "https://flagcdn.com/w80/es.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 4,
+     "team": {
+      "id": 1046,
+      "name": "Uruguay",
+      "shortName": "Uruguay",
+      "tla": "URU",
+      "crest": "https://flagcdn.com/w80/uy.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    }
+   ]
+  },
+  {
+   "stage": "GROUP_STAGE",
+   "type": "TOTAL",
+   "group": "GROUP_I",
+   "table": [
+    {
+     "position": 1,
+     "team": {
+      "id": 1018,
+      "name": "France",
+      "shortName": "France",
+      "tla": "FRA",
+      "crest": "https://flagcdn.com/w80/fr.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 2,
+     "team": {
+      "id": 1023,
+      "name": "Iraq",
+      "shortName": "Iraq",
+      "tla": "IRQ",
+      "crest": "https://flagcdn.com/w80/iq.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 3,
+     "team": {
+      "id": 1031,
+      "name": "Norway",
+      "shortName": "Norway",
+      "tla": "NOR",
+      "crest": "https://flagcdn.com/w80/no.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 4,
+     "team": {
+      "id": 1038,
+      "name": "Senegal",
+      "shortName": "Senegal",
+      "tla": "SEN",
+      "crest": "https://flagcdn.com/w80/sn.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    }
+   ]
+  },
+  {
+   "stage": "GROUP_STAGE",
+   "type": "TOTAL",
+   "group": "GROUP_J",
+   "table": [
+    {
+     "position": 1,
+     "team": {
+      "id": 1000,
+      "name": "Algeria",
+      "shortName": "Algeria",
+      "tla": "ALG",
+      "crest": "https://flagcdn.com/w80/dz.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 2,
+     "team": {
+      "id": 1001,
+      "name": "Argentina",
+      "shortName": "Argentina",
+      "tla": "ARG",
+      "crest": "https://flagcdn.com/w80/ar.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 3,
+     "team": {
+      "id": 1003,
+      "name": "Austria",
+      "shortName": "Austria",
+      "tla": "AUT",
+      "crest": "https://flagcdn.com/w80/at.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 4,
+     "team": {
+      "id": 1025,
+      "name": "Jordan",
+      "shortName": "Jordan",
+      "tla": "JOR",
+      "crest": "https://flagcdn.com/w80/jo.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    }
+   ]
+  },
+  {
+   "stage": "GROUP_STAGE",
+   "type": "TOTAL",
+   "group": "GROUP_K",
+   "table": [
+    {
+     "position": 1,
+     "team": {
+      "id": 1009,
+      "name": "Colombia",
+      "shortName": "Colombia",
+      "tla": "COL",
+      "crest": "https://flagcdn.com/w80/co.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 2,
+     "team": {
+      "id": 1010,
+      "name": "Congo DR",
+      "shortName": "DR Congo",
+      "tla": "COD",
+      "crest": "https://flagcdn.com/w80/cd.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 3,
+     "team": {
+      "id": 1034,
+      "name": "Portugal",
+      "shortName": "Portugal",
+      "tla": "POR",
+      "crest": "https://flagcdn.com/w80/pt.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 4,
+     "team": {
+      "id": 1047,
+      "name": "Uzbekistan",
+      "shortName": "Uzbekistan",
+      "tla": "UZB",
+      "crest": "https://flagcdn.com/w80/uz.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    }
+   ]
+  },
+  {
+   "stage": "GROUP_STAGE",
+   "type": "TOTAL",
+   "group": "GROUP_L",
+   "table": [
+    {
+     "position": 1,
+     "team": {
+      "id": 1011,
+      "name": "Croatia",
+      "shortName": "Croatia",
+      "tla": "CRO",
+      "crest": "https://flagcdn.com/w80/hr.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 2,
+     "team": {
+      "id": 1017,
+      "name": "England",
+      "shortName": "England",
+      "tla": "ENG",
+      "crest": "https://flagcdn.com/w80/gb-eng.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 3,
+     "team": {
+      "id": 1020,
+      "name": "Ghana",
+      "shortName": "Ghana",
+      "tla": "GHA",
+      "crest": "https://flagcdn.com/w80/gh.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    },
+    {
+     "position": 4,
+     "team": {
+      "id": 1032,
+      "name": "Panama",
+      "shortName": "Panama",
+      "tla": "PAN",
+      "crest": "https://flagcdn.com/w80/pa.png"
+     },
+     "playedGames": 0,
+     "won": 0,
+     "draw": 0,
+     "lost": 0,
+     "points": 0,
+     "goalsFor": 0,
+     "goalsAgainst": 0,
+     "goalDifference": 0
+    }
+   ]
+  }
+ ],
+ "teams": [
+  {
+   "id": 1000,
+   "name": "Algeria",
+   "shortName": "Algeria",
+   "tla": "ALG",
+   "crest": "https://flagcdn.com/w80/dz.png"
+  },
+  {
+   "id": 1001,
+   "name": "Argentina",
+   "shortName": "Argentina",
+   "tla": "ARG",
+   "crest": "https://flagcdn.com/w80/ar.png"
+  },
+  {
+   "id": 1002,
+   "name": "Australia",
+   "shortName": "Australia",
+   "tla": "AUS",
+   "crest": "https://flagcdn.com/w80/au.png"
+  },
+  {
+   "id": 1003,
+   "name": "Austria",
+   "shortName": "Austria",
+   "tla": "AUT",
+   "crest": "https://flagcdn.com/w80/at.png"
+  },
+  {
+   "id": 1004,
+   "name": "Belgium",
+   "shortName": "Belgium",
+   "tla": "BEL",
+   "crest": "https://flagcdn.com/w80/be.png"
+  },
+  {
+   "id": 1005,
+   "name": "Bosnia and Herzegovina",
+   "shortName": "Bosnia",
+   "tla": "BIH",
+   "crest": "https://flagcdn.com/w80/ba.png"
+  },
+  {
+   "id": 1006,
+   "name": "Brazil",
+   "shortName": "Brazil",
+   "tla": "BRA",
+   "crest": "https://flagcdn.com/w80/br.png"
+  },
+  {
+   "id": 1007,
+   "name": "Cabo Verde",
+   "shortName": "Cabo Verde",
+   "tla": "CPV",
+   "crest": "https://flagcdn.com/w80/cv.png"
+  },
+  {
+   "id": 1008,
+   "name": "Canada",
+   "shortName": "Canada",
+   "tla": "CAN",
+   "crest": "https://flagcdn.com/w80/ca.png"
+  },
+  {
+   "id": 1009,
+   "name": "Colombia",
+   "shortName": "Colombia",
+   "tla": "COL",
+   "crest": "https://flagcdn.com/w80/co.png"
+  },
+  {
+   "id": 1010,
+   "name": "Congo DR",
+   "shortName": "DR Congo",
+   "tla": "COD",
+   "crest": "https://flagcdn.com/w80/cd.png"
+  },
+  {
+   "id": 1011,
+   "name": "Croatia",
+   "shortName": "Croatia",
+   "tla": "CRO",
+   "crest": "https://flagcdn.com/w80/hr.png"
+  },
+  {
+   "id": 1012,
+   "name": "Curaçao",
+   "shortName": "Curaçao",
+   "tla": "CUW",
+   "crest": "https://flagcdn.com/w80/cw.png"
+  },
+  {
+   "id": 1013,
+   "name": "Czechia",
+   "shortName": "Czechia",
+   "tla": "CZE",
+   "crest": "https://flagcdn.com/w80/cz.png"
+  },
+  {
+   "id": 1014,
+   "name": "Côte d'Ivoire",
+   "shortName": "Côte d'Ivoire",
+   "tla": "CIV",
+   "crest": "https://flagcdn.com/w80/ci.png"
+  },
+  {
+   "id": 1015,
+   "name": "Ecuador",
+   "shortName": "Ecuador",
+   "tla": "ECU",
+   "crest": "https://flagcdn.com/w80/ec.png"
+  },
+  {
+   "id": 1016,
+   "name": "Egypt",
+   "shortName": "Egypt",
+   "tla": "EGY",
+   "crest": "https://flagcdn.com/w80/eg.png"
+  },
+  {
+   "id": 1017,
+   "name": "England",
+   "shortName": "England",
+   "tla": "ENG",
+   "crest": "https://flagcdn.com/w80/gb-eng.png"
+  },
+  {
+   "id": 1018,
+   "name": "France",
+   "shortName": "France",
+   "tla": "FRA",
+   "crest": "https://flagcdn.com/w80/fr.png"
+  },
+  {
+   "id": 1019,
+   "name": "Germany",
+   "shortName": "Germany",
+   "tla": "GER",
+   "crest": "https://flagcdn.com/w80/de.png"
+  },
+  {
+   "id": 1020,
+   "name": "Ghana",
+   "shortName": "Ghana",
+   "tla": "GHA",
+   "crest": "https://flagcdn.com/w80/gh.png"
+  },
+  {
+   "id": 1021,
+   "name": "Haiti",
+   "shortName": "Haiti",
+   "tla": "HAI",
+   "crest": "https://flagcdn.com/w80/ht.png"
+  },
+  {
+   "id": 1022,
+   "name": "IR Iran",
+   "shortName": "Iran",
+   "tla": "IRN",
+   "crest": "https://flagcdn.com/w80/ir.png"
+  },
+  {
+   "id": 1023,
+   "name": "Iraq",
+   "shortName": "Iraq",
+   "tla": "IRQ",
+   "crest": "https://flagcdn.com/w80/iq.png"
+  },
+  {
+   "id": 1024,
+   "name": "Japan",
+   "shortName": "Japan",
+   "tla": "JPN",
+   "crest": "https://flagcdn.com/w80/jp.png"
+  },
+  {
+   "id": 1025,
+   "name": "Jordan",
+   "shortName": "Jordan",
+   "tla": "JOR",
+   "crest": "https://flagcdn.com/w80/jo.png"
+  },
+  {
+   "id": 1026,
+   "name": "Korea Republic",
+   "shortName": "South Korea",
+   "tla": "KOR",
+   "crest": "https://flagcdn.com/w80/kr.png"
+  },
+  {
+   "id": 1027,
+   "name": "Mexico",
+   "shortName": "Mexico",
+   "tla": "MEX",
+   "crest": "https://flagcdn.com/w80/mx.png"
+  },
+  {
+   "id": 1028,
+   "name": "Morocco",
+   "shortName": "Morocco",
+   "tla": "MAR",
+   "crest": "https://flagcdn.com/w80/ma.png"
+  },
+  {
+   "id": 1029,
+   "name": "Netherlands",
+   "shortName": "Netherlands",
+   "tla": "NED",
+   "crest": "https://flagcdn.com/w80/nl.png"
+  },
+  {
+   "id": 1030,
+   "name": "New Zealand",
+   "shortName": "New Zealand",
+   "tla": "NZL",
+   "crest": "https://flagcdn.com/w80/nz.png"
+  },
+  {
+   "id": 1031,
+   "name": "Norway",
+   "shortName": "Norway",
+   "tla": "NOR",
+   "crest": "https://flagcdn.com/w80/no.png"
+  },
+  {
+   "id": 1032,
+   "name": "Panama",
+   "shortName": "Panama",
+   "tla": "PAN",
+   "crest": "https://flagcdn.com/w80/pa.png"
+  },
+  {
+   "id": 1033,
+   "name": "Paraguay",
+   "shortName": "Paraguay",
+   "tla": "PAR",
+   "crest": "https://flagcdn.com/w80/py.png"
+  },
+  {
+   "id": 1034,
+   "name": "Portugal",
+   "shortName": "Portugal",
+   "tla": "POR",
+   "crest": "https://flagcdn.com/w80/pt.png"
+  },
+  {
+   "id": 1035,
+   "name": "Qatar",
+   "shortName": "Qatar",
+   "tla": "QAT",
+   "crest": "https://flagcdn.com/w80/qa.png"
+  },
+  {
+   "id": 1036,
+   "name": "Saudi Arabia",
+   "shortName": "Saudi Arabia",
+   "tla": "KSA",
+   "crest": "https://flagcdn.com/w80/sa.png"
+  },
+  {
+   "id": 1037,
+   "name": "Scotland",
+   "shortName": "Scotland",
+   "tla": "SCO",
+   "crest": "https://flagcdn.com/w80/gb-sct.png"
+  },
+  {
+   "id": 1038,
+   "name": "Senegal",
+   "shortName": "Senegal",
+   "tla": "SEN",
+   "crest": "https://flagcdn.com/w80/sn.png"
+  },
+  {
+   "id": 1039,
+   "name": "South Africa",
+   "shortName": "South Africa",
+   "tla": "RSA",
+   "crest": "https://flagcdn.com/w80/za.png"
+  },
+  {
+   "id": 1040,
+   "name": "Spain",
+   "shortName": "Spain",
+   "tla": "ESP",
+   "crest": "https://flagcdn.com/w80/es.png"
+  },
+  {
+   "id": 1041,
+   "name": "Sweden",
+   "shortName": "Sweden",
+   "tla": "SWE",
+   "crest": "https://flagcdn.com/w80/se.png"
+  },
+  {
+   "id": 1042,
+   "name": "Switzerland",
+   "shortName": "Switzerland",
+   "tla": "SUI",
+   "crest": "https://flagcdn.com/w80/ch.png"
+  },
+  {
+   "id": 1043,
+   "name": "Tunisia",
+   "shortName": "Tunisia",
+   "tla": "TUN",
+   "crest": "https://flagcdn.com/w80/tn.png"
+  },
+  {
+   "id": 1044,
+   "name": "Türkiye",
+   "shortName": "Türkiye",
+   "tla": "TUR",
+   "crest": "https://flagcdn.com/w80/tr.png"
+  },
+  {
+   "id": 1045,
+   "name": "USA",
+   "shortName": "USA",
+   "tla": "USA",
+   "crest": "https://flagcdn.com/w80/us.png"
+  },
+  {
+   "id": 1046,
+   "name": "Uruguay",
+   "shortName": "Uruguay",
+   "tla": "URU",
+   "crest": "https://flagcdn.com/w80/uy.png"
+  },
+  {
+   "id": 1047,
+   "name": "Uzbekistan",
+   "shortName": "Uzbekistan",
+   "tla": "UZB",
+   "crest": "https://flagcdn.com/w80/uz.png"
+  }
+ ]
+}
