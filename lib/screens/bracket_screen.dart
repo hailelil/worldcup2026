@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:intl/intl.dart';
 
 import '../models/match.dart';
 import '../state/providers.dart';
 import '../widgets/match_card.dart';
 
-/// Knockout rounds as a scrollable list of sections, Round of 32 → Final.
+/// Knockout rounds as a scrollable list of sections, Round of 32 -> Final.
 /// Unresolved slots show their qualification path ("Group A winners").
 class BracketScreen extends ConsumerWidget {
   const BracketScreen({super.key});
@@ -37,16 +38,37 @@ class BracketScreen extends ConsumerWidget {
             children: [
               for (final round in _rounds) ...[
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(16, 20, 16, 6),
+                  padding: const EdgeInsets.fromLTRB(16, 20, 16, 2),
                   child: Text(round.label,
                       style: theme.textTheme.titleMedium
                           ?.copyWith(fontWeight: FontWeight.w700)),
                 ),
-                for (final m in data.matches
-                    .where((m) => m.stage == round)
-                    .toList()
-                  ..sort((a, b) => a.utcDate.compareTo(b.utcDate)))
-                  MatchCard(match: m, showStageLabel: false),
+                Builder(builder: (context) {
+                  final roundMatches = data.matches
+                      .where((m) => m.stage == round)
+                      .toList()
+                    ..sort((a, b) => a.utcDate.compareTo(b.utcDate));
+                  final allTbd = roundMatches.isNotEmpty &&
+                      roundMatches.every((m) => m.homeTeam.isPlaceholder);
+                  return Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      if (allTbd)
+                        Padding(
+                          padding: const EdgeInsets.fromLTRB(16, 2, 16, 6),
+                          child: Text(
+                            'Starts ${DateFormat.MMMd().format(roundMatches.first.localKickoff)}',
+                            style: theme.textTheme.bodySmall?.copyWith(
+                                color: theme.colorScheme.onSurfaceVariant),
+                          ),
+                        )
+                      else
+                        const SizedBox(height: 6),
+                      for (final m in roundMatches)
+                        MatchCard(match: m, showStageLabel: false),
+                    ],
+                  );
+                }),
               ],
               const SizedBox(height: 24),
             ],

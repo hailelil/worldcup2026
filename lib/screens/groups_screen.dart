@@ -29,8 +29,9 @@ class GroupsScreen extends ConsumerWidget {
               Padding(
                 padding: const EdgeInsets.all(16),
                 child: Text(
-                  'Top two qualify for the Round of 32, joined by the eight '
-                  'best third-placed teams.',
+                  'Top 2 from each group qualify directly. The 8 best '
+                  'third-placed teams (out of 12 groups) also advance to '
+                  'the Round of 32.',
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
                       color: Theme.of(context).colorScheme.onSurfaceVariant),
                 ),

@@ -74,8 +74,10 @@ class MoreScreen extends ConsumerWidget {
               Padding(
                 padding: const EdgeInsets.all(16),
                 child: Text(
-                  'Football data provided by football-data.org.\n'
-                  'Flags by flagcdn.com. Stadium capacities are approximate.',
+                  'Scores and standings refresh automatically via a GitHub '
+                  'Actions mirror (every ~5 minutes). Football data provided '
+                  'by football-data.org. Flags by flagcdn.com. Stadium '
+                  'capacities are approximate.',
                   style: theme.textTheme.bodySmall
                       ?.copyWith(color: theme.colorScheme.onSurfaceVariant),
                 ),

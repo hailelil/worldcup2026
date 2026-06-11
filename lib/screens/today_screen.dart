@@ -37,6 +37,15 @@ class _TodayScreenState extends ConsumerState<TodayScreen> {
     super.dispose();
   }
 
+  static String _timeAgo(DateTime t) {
+    final mins = DateTime.now().toUtc().difference(t.toUtc()).inMinutes;
+    if (mins < 1) return 'just now';
+    if (mins == 1) return '1 min ago';
+    if (mins < 60) return '$mins min ago';
+    final hrs = mins ~/ 60;
+    return hrs == 1 ? '1 hour ago' : '$hrs hours ago';
+  }
+
   @override
   Widget build(BuildContext context) {
     final async = ref.watch(worldCupDataProvider);
@@ -53,8 +62,13 @@ class _TodayScreenState extends ConsumerState<TodayScreen> {
               .where((m) => DateUtils.isSameDay(m.localKickoff, now))
               .toList()
             ..sort((a, b) => a.utcDate.compareTo(b.utcDate));
+          // Exclude matches already shown in "today" from "next kick-off".
+          final todayIds = today.map((m) => m.id).toSet();
           final next = data.matches
-              .where((m) => m.isUpcoming && m.utcDate.isAfter(now.toUtc()))
+              .where((m) =>
+                  m.isUpcoming &&
+                  m.utcDate.isAfter(now.toUtc()) &&
+                  !todayIds.contains(m.id))
               .fold<WcMatch?>(null,
                   (a, b) => a == null || b.utcDate.isBefore(a.utcDate) ? b : a);
           final recent = data.matches.where((m) => m.isFinished).toList()
@@ -82,6 +96,15 @@ class _TodayScreenState extends ConsumerState<TodayScreen> {
                   _header(theme, 'Latest results'),
                   for (final m in recent.take(5)) MatchCard(match: m),
                 ],
+                if (data.fetchedAt != null)
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(16, 12, 16, 0),
+                    child: Text(
+                      'Updated ${_timeAgo(data.fetchedAt!)}',
+                      style: theme.textTheme.bodySmall?.copyWith(
+                          color: theme.colorScheme.onSurfaceVariant),
+                    ),
+                  ),
                 const SizedBox(height: 24),
               ],
             ),

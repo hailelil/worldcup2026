@@ -56,7 +56,16 @@ class MatchCard extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(width: 12),
-                  StatusChip(match: match),
+                  Column(
+                    children: [
+                      StatusChip(match: match),
+                      const SizedBox(height: 6),
+                      Icon(Icons.chevron_right,
+                          size: 16,
+                          color: theme.colorScheme.onSurfaceVariant
+                              .withValues(alpha: 0.5)),
+                    ],
+                  ),
                 ],
               ),
             ],
@@ -68,9 +77,15 @@ class MatchCard extends StatelessWidget {
 
   Widget _teamRow(ThemeData theme, TeamRef team, String? goals,
       {required bool winner}) {
-    final style = theme.textTheme.bodyLarge?.copyWith(
+    final nameStyle = theme.textTheme.bodyLarge?.copyWith(
       fontWeight: winner ? FontWeight.w700 : FontWeight.w500,
       color: team.isPlaceholder ? theme.colorScheme.onSurfaceVariant : null,
+    );
+    final scoreStyle = theme.textTheme.bodyLarge?.copyWith(
+      fontWeight: FontWeight.w800,
+      color: winner
+          ? theme.colorScheme.onSurface
+          : theme.colorScheme.onSurfaceVariant,
     );
     return Row(
       children: [
@@ -78,9 +93,9 @@ class MatchCard extends StatelessWidget {
         const SizedBox(width: 10),
         Expanded(
           child: Text(team.displayName,
-              style: style, overflow: TextOverflow.ellipsis),
+              style: nameStyle, overflow: TextOverflow.ellipsis),
         ),
-        if (goals != null) Text(goals, style: style),
+        if (goals != null) Text(goals, style: scoreStyle),
       ],
     );
   }

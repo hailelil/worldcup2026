@@ -41,22 +41,14 @@ class MatchDetailScreen extends ConsumerWidget {
                   Row(
                     children: [
                       Expanded(child: _team(theme, current.homeTeam)),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 12),
-                        child: Text(
-                          current.displayScore ??
-                              DateFormat.jm().format(kickoff),
-                          style: theme.textTheme.headlineMedium
-                              ?.copyWith(fontWeight: FontWeight.w800),
-                        ),
-                      ),
+                      _ScoreDisplay(match: current),
                       Expanded(child: _team(theme, current.awayTeam)),
                     ],
                   ),
                   if (current.score.halfTimeHome != null) ...[
                     const SizedBox(height: 12),
                     Text(
-                      'Half-time ${current.score.halfTimeHome} – ${current.score.halfTimeAway}',
+                      'Half-time: ${current.score.halfTimeHome} – ${current.score.halfTimeAway}',
                       style: theme.textTheme.bodySmall
                           ?.copyWith(color: theme.colorScheme.onSurfaceVariant),
                     ),
@@ -113,6 +105,61 @@ class MatchDetailScreen extends ConsumerWidget {
         leading: Icon(icon),
         title: Text(title),
         subtitle: Text(value),
+      ),
+    );
+  }
+}
+
+class _ScoreDisplay extends StatelessWidget {
+  const _ScoreDisplay({required this.match});
+  final WcMatch match;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final home = match.score.fullTimeHome;
+    final away = match.score.fullTimeAway;
+    final big = theme.textTheme.displaySmall
+        ?.copyWith(fontWeight: FontWeight.w900, height: 1);
+    final sep = theme.textTheme.headlineSmall?.copyWith(
+        color: theme.colorScheme.onSurfaceVariant, height: 1);
+
+    if (home != null && away != null) {
+      return Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 8),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(
+              '$home',
+              style: big?.copyWith(
+                color: match.score.winner == 'HOME_TEAM'
+                    ? theme.colorScheme.onSurface
+                    : theme.colorScheme.onSurfaceVariant,
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 6),
+              child: Text('–', style: sep),
+            ),
+            Text(
+              '$away',
+              style: big?.copyWith(
+                color: match.score.winner == 'AWAY_TEAM'
+                    ? theme.colorScheme.onSurface
+                    : theme.colorScheme.onSurfaceVariant,
+              ),
+            ),
+          ],
+        ),
+      );
+    }
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 8),
+      child: Text(
+        DateFormat.jm().format(match.localKickoff),
+        style:
+            theme.textTheme.headlineMedium?.copyWith(fontWeight: FontWeight.w800),
       ),
     );
   }
